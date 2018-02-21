@@ -4,7 +4,7 @@
 tell application "QuarkXPress 2017"
 	activate
 	tell document 1
-		display dialog (count of words of selection)
+		-- display dialog (count of words of selection)
 		
 		repeat with i from 3 to count of characters of selection
 			
