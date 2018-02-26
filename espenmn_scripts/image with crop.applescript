@@ -13,12 +13,13 @@ tell application "QuarkXPress 2017"
 		set a to a & "+" & (leftside * 3) & "mm"
 		set b to page height
 		set captionBoxBounds to {-3, (-3 + (leftside * (3))), b, a}
-		
-		set bounds of current box to captionBoxBounds
+	
 		try
-		set bounds of image 1 of current box to proportional fit
-		set properties of image 1 of current box to {offset:{0, 0}}
-		set bounds of image 1 of current box to box fit
+			set bounds of current box to captionBoxBounds
+
+			set bounds of image 1 of current box to proportional fit
+			set properties of image 1 of current box to {offset:{0, 0}}
+			set bounds of image 1 of current box to box fit
 		end try
 		
 	end tell
