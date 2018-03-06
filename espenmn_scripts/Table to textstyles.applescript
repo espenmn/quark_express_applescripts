@@ -1,6 +1,13 @@
 (*
 	Copyright (c) 12017 Espen Moe-Nilssen
-	This script takes a table and coverts it to "Stylesheets"	
+	This script takes a table and coverts it to "Stylesheets"
+	Do like this: 
+	1) Make a new document
+	2) Copy / paste a table from Excel or whatever
+	3) Name the first row with the stylesheet name you want to use
+	4) Add and select a new text box
+	5) Run the script
+	6) Run the 'Convert to tags script (due to copyright I could not include it)	
 *)
 
 tell application "QuarkXPress 2017"
