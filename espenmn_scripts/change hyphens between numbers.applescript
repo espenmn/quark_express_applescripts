@@ -17,7 +17,7 @@ tell application "QuarkXPress 2017"
 					end if
 				end if
 			end if
-			set progress completed steps to i
+			--set progress completed steps to i
 		end repeat
 		display dialog "Done"
 	end tell

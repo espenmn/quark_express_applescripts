@@ -16,15 +16,15 @@ tell application "QuarkXPress 2017"
 				set cBoxBounds to d
 			end if
 			try
-			tell picture box 1 of page i
-				set yheight to height of bounds
-				set xwidth to width of bounds
-				set left of bounds to (word 1 of cBoxBounds as integer)
-				set top of bounds to (word 2 of cBoxBounds as integer)
-				set height of bounds to yheight
-				set width of bounds to xwidth
-				
-			end tell
+				tell picture box 1 of page i
+					set yheight to height of bounds
+					set xwidth to width of bounds
+					set left of bounds to (word 1 of cBoxBounds as integer)
+					set top of bounds to (word 2 of cBoxBounds as integer)
+					set height of bounds to yheight
+					set width of bounds to xwidth
+					
+				end tell
 			end try
 		end repeat
 	end tell
