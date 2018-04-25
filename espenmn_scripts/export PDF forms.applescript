@@ -15,7 +15,7 @@ tell application "QuarkXPress 2017"
 	set step_by to text returned of my_input
 	set quarkfilename to name of document 1
 	repeat with i from x to y by step_by
-		set j to i + step_by  - 1
+		set j to i + step_by - 1
 		if j > y then set j to y
 		set pagerange to i & "-" & j
 		tell document 1
