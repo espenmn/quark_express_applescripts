@@ -13,5 +13,6 @@ tell application "QuarkXPress 2017"
 				delete paragraph i
 			end if
 		end repeat
+		display dialog "DONE"
 	end tell
 end tell
