@@ -17,5 +17,5 @@ tell application "QuarkXPress 2017"
 	end repeat
 	set missing_link_list to missing_link_list as string
 	display dialog missing_link_list
-
+	
 end tell
