@@ -19,7 +19,7 @@ tell application "QuarkXPress 2017"
 	tell document 1
 		
 		
-		repeat with i from 1 to count of paragraphs of selection
+		repeat with i from 1 to (count of paragraphs of selection) - 1 
 			try
 				set a to name of style sheet of (paragraph i of selection)
 				
