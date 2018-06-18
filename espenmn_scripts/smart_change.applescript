@@ -14,7 +14,7 @@ tell application "QuarkXPress 2017"
 		tell document 1
 			repeat with i from 1 to (count of paragraphs of selection)
 				
-				display dialog i
+				--display dialog i
 				try
 					set style_name to name of style sheet of paragraph i of selection
 					--set style_name to paragraph attributes of style_name
