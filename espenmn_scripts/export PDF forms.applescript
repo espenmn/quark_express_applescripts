@@ -6,7 +6,7 @@
 *)
 
 set outputfolderpath to (choose folder with prompt "Choose PDFOutput Folder" without invisibles) as text
-tell application "QuarkXPress 2017"
+tell application "QuarkXPress 2018"
 	set my_input to display dialog "From" default answer 1
 	set x to text returned of my_input
 	set my_input to display dialog "To" default answer (count of pages of document 1)
@@ -20,7 +20,7 @@ tell application "QuarkXPress 2017"
 		set pagerange to i & "-" & j
 		tell document 1
 			
-			export page range (pagerange as text) as "PDF" in ((outputfolderpath & (quarkfilename) & "_" & pagerange & ".pdf") as text) PDF output style "16x24 til A4"
+			export page range (pagerange as text) as "PDF" in ((outputfolderpath & (quarkfilename) & "_" & pagerange & ".pdf") as text) PDF output style "17x24"
 		end tell
 	end repeat
 end tell

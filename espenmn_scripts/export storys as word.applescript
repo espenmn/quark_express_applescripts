@@ -5,7 +5,7 @@
 
 set outputfolderpath to (choose folder with prompt "Choose Text Output Folder" without invisibles) as text
 
-tell application "QuarkXPress 2017"
+tell application "QuarkXPress 2018"
 	activate
 	set a to text export filters
 	repeat with i from 1 to 50

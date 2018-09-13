@@ -1,4 +1,4 @@
-tell application "QuarkXPress 2017"
+tell application "QuarkXPress 2018"
 	set missing_link_list to {}
 	repeat with i from 1 to (count every image of document 1)
 		set missing_status to missing of image i of document 1

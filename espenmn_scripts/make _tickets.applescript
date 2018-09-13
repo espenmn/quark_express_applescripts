@@ -3,7 +3,7 @@
 	© Espen Moe-Nilssen, 2018
 *)
 
-tell application "QuarkXPress 2017"
+tell application "QuarkXPress 2018"
 	activate
 	
 	

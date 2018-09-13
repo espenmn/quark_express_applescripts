@@ -4,7 +4,7 @@
 	You probably want to make the first image box in the right bottom corner and duplicate it from there
 *)
 
-tell application "QuarkXPress 2017"
+tell application "QuarkXPress 2018"
 	activate
 	
 	

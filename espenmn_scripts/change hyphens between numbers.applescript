@@ -2,7 +2,7 @@
 	A script to change every occurence of '-' (hyphen( between two numbers to "Ð"
 *)
 
-tell application "QuarkXPress 2017"
+tell application "QuarkXPress 2018"
 	activate
 	tell document 1
 		-- display dialog (count of characters of selection)

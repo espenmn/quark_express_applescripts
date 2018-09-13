@@ -2,7 +2,7 @@
 	Copyright (c) Espen Moe-Nilssen
 *)
 
-tell application "QuarkXPress 2017"
+tell application "QuarkXPress 2018"
 	activate
 	
 	

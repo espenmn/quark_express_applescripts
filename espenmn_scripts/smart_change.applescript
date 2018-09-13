@@ -1,4 +1,4 @@
-tell application "QuarkXPress 2017"
+tell application "QuarkXPress 2018"
 	-- remove loop if we get checkboxes
 	repeat with j from 1 to 12
 		-- need check boxes for this

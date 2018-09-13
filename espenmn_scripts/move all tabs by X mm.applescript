@@ -4,7 +4,7 @@
 *)
 
 
-tell application "QuarkXPress 2017"
+tell application "QuarkXPress 2018"
 	activate
 	tell document 1
 		set move_tab to text returned of (display dialog "Move Tabs by" default answer 5)

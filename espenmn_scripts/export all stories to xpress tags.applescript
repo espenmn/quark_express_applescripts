@@ -1,6 +1,6 @@
 set outputfolderpath to (choose folder with prompt "Choose Text Output Folder" without invisibles) as text
 
-tell application "QuarkXPress 2017"
+tell application "QuarkXPress 2018"
 	activate
 	set a to text export filters
 	set min_length to text returned of (display dialog "Smallest text to export" default answer 3)

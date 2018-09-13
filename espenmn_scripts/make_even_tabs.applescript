@@ -4,7 +4,7 @@
 *)
 
 
-tell application "QuarkXPress 2017"
+tell application "QuarkXPress 2018"
 	
 	set tab_start to text returned of (display dialog "Start" default answer 35)
 	set tab_end to text returned of (display dialog "End" default answer 120)

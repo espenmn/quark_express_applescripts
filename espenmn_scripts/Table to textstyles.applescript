@@ -10,7 +10,7 @@
 	6) Run the 'Convert to tags script (due to copyright I could not include it)	
 *)
 
-tell application "QuarkXPress 2017"
+tell application "QuarkXPress 2018"
 	tell document 1
 		set exporttext to "<v13.21><e8>"
 		set headertext to {}
@@ -21,6 +21,7 @@ tell application "QuarkXPress 2017"
 		end repeat
 		-- set tcount to count of table rows of mybox
 		set tcount to count of text cells of mybox
+		display dialog tcount
 		repeat with i from 1 to tcount
 			set cellcontent to story 1 of (text cell i of mybox)
 			set columnnr to (i mod tbcolumn)
@@ -34,5 +35,6 @@ tell application "QuarkXPress 2017"
 			set story 1 to exporttext
 		end tell
 		display dialog "Now, select the text and run the 'Convert from Xpress Tags Script'"
+		D
 	end tell
 end tell

@@ -1,4 +1,4 @@
-tell application "QuarkXPress 2017"
+tell application "QuarkXPress 2018"
 	
 	set a to style specs of document 1 as list
 	
@@ -19,7 +19,7 @@ tell application "QuarkXPress 2017"
 	tell document 1
 		
 		
-		repeat with i from 1 to (count of paragraphs of selection) - 1 
+		repeat with i from 1 to (count of paragraphs of selection) - 1
 			try
 				set a to name of style sheet of (paragraph i of selection)
 				
