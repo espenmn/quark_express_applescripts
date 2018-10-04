@@ -3,9 +3,9 @@ tell application "QuarkXPress 2018"
 	
 	tell document 1
 		set mylist to {}
-		set a to display dialog "Left pages" default answer "10, 10"
+		set a to display dialog "Odd pages" default answer "10, 10"
 		set b to text returned of a
-		set c to display dialog "Right pages" default answer "20, 20"
+		set c to display dialog "Even pages" default answer "20, 20"
 		set d to text returned of c
 		repeat with i from 1 to count of pages
 			set whichside to i mod 2

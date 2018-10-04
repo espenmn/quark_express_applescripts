@@ -14,7 +14,7 @@ tell application "QuarkXPress 2018"
 						set missing_path_name to text items jj thru end of missing_image_path as string
 						set AppleScript's text item delimiters to oldDels
 					end tell
-					set ny_path to "Volumes:data:Documents:#Fra Jobber:" & missing_path_name as string
+					set ny_path to "Volumes:Documents:#Fra Jobber:" & missing_path_name as string
 				end try
 				--display dialog ny_path
 				try
