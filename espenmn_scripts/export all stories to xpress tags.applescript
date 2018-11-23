@@ -11,6 +11,7 @@ tell application "QuarkXPress 2018"
 				--try
 				set txtbox to object reference of text box j
 				if (the length of (story 1 of txtbox) > min_length) then save (story 1 of txtbox) as "XPress Tags" in file ((outputfolderpath & (quarkfilename & j & ".xtg")) as text)
+				--set story 1 of txtbox to ""
 				--end try
 			end repeat
 		end tell
