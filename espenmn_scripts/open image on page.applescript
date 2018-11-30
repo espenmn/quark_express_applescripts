@@ -19,7 +19,6 @@ tell application "QuarkXPress 2018"
 				
 				set imageName to file path of image 1 of foundPictBoxes
 				
-				delay 3
 				
 				tell application "Finder"
 					try
