@@ -15,7 +15,7 @@ tell application "QuarkXPress 2018"
 		end try
 	end repeat
 	
-	set colorname to choose from list stylelist with prompt "Stylesheet"
+	set colorname to choose from list stylelist with prompt "velg rammefarge"
 	set colorname to colorname as string
 	
 	set color of frame of current box to colorname
