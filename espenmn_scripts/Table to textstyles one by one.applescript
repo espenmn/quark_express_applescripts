@@ -12,8 +12,7 @@
 
 tell application "QuarkXPress 2018"
 	tell document 1
-		set exporttext to "<v13.21><e8>" & return
-		
+		set exporttext to "<v13.21><e8>"
 		set headertext to {}
 		set mybox to table box 1
 		set tbcolumn to count of table column of mybox
@@ -22,7 +21,6 @@ tell application "QuarkXPress 2018"
 		end repeat
 		-- set tcount to count of table rows of mybox
 		set tcount to count of text cells of mybox
-		copy exporttext to after story 1 of mybox
 		
 		repeat with i from 1 to tcount
 			set cellcontent to story 1 of (text cell i of mybox)
@@ -30,12 +28,13 @@ tell application "QuarkXPress 2018"
 			if columnnr = 0 then set columnnr to tbcolumn
 			if i > tbcolumn then
 				set firste to "@" & (item columnnr of headertext) & ":"
-				set seconte to cellcontent & return
+				set seconde to cellcontent & return
 				copy firste to after story 1
-				copy seconte to after story 1
+				copy seconde to after story 1
 				
 			end if
 		end repeat
+		
 		display dialog "Now, select the text and run the 'Convert from Xpress Tags Script'"
 		
 	end tell
