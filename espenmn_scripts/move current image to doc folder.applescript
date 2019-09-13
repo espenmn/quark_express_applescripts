@@ -11,9 +11,10 @@ tell application "QuarkXPress 2018"
 			set doc_container to (container of (doc_path))
 			move alias image_path to folder (doc_container as string)
 		end tell
-		display dialog "Moved file: " & image_name & "to folder:" & (doc_container as string) buttons "OK"
+		display dialog "Moved file: " & image_name & "to folder:" & (doc_container as string) buttons "OK" default button "OK"
+
 		
 	on error
-		display dialog "Could not move file" buttons "OK"
+		display dialog "Could not move file" buttons "OK" default button "OK"
 	end try
 end tell
