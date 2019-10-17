@@ -17,7 +17,7 @@ tell application "QuarkXPress 2018"
 	
 	set my_story to ""
 	repeat with p from 1 to totalpages
-		repeat with i from 1 to boxes
+		repeat with i from 0 to (boxes-1)
 			
 			
 			set tall to ((i * totalpages) + p) as string
