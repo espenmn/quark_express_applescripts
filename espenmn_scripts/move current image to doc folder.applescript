@@ -1,20 +1,16 @@
-(*
-	Move selected image to same folder as Quark Xpress document
-*)
 
 tell application "QuarkXPress 2018"
-	try
-		set image_path to file path of image 1 of current box as string
-		set image_name to name of image 1 of current box as string
-		set doc_path to file path of document 1
-		tell application "Finder"
-			set doc_container to (container of (doc_path))
-			move alias image_path to folder (doc_container as string)
-		end tell
-		display dialog "Moved file: " & image_name & "to folder:" & (doc_container as string) buttons "OK" default button "OK"
-
-		
-	on error
-		display dialog "Could not move file" buttons "OK" default button "OK"
-	end try
+	activate
+	tell document 1
+		-- display dialog (count of characters of selection)
+		set antall to count of characters of selection
+		repeat with i from 1 to antall
+			if base shift of character i of selection is not "0 pt" then
+				set color of character i of selection to "Magenta"
+				
+			end if
+			--set progress completed steps to i
+		end repeat
+		display dialog "Done"
+	end tell
 end tell
