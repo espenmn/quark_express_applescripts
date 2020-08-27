@@ -1,0 +1,19 @@
+findType,findWhat,changeTo,caseSensitive,wholeWord,enabled,comments
+text,--,&mdash;,FALSE,FALSE,TRUE,Find all dash-dash and replace with an em dash.
+text, - ,&ndash;,FALSE,FALSE,TRUE,Find all space-dash-space and replace with an en dash.
+text,  , ,FALSE,FALSE,FALSE,Find all double spaces and replace with a single space.
+text, :,:,FALSE,FALSE,TRUE,Find all space-colon and replace with a colon.
+text, ?,?,FALSE,FALSE,TRUE,Find all space-question mark and replace with a question mark.
+text, !,!,FALSE,FALSE,TRUE,Find all space-exclamatory sign and replace with an exclamatory sign.
+text, =,=,FALSE,FALSE,FALSE,Find all space-equals to and replace with an equals to sign.
+text, .,.,FALSE,FALSE,TRUE,Find all space-full stop and replace with a full stop.
+grep,/^(\w*)\s(\w*)/g,$2 - $1,NA,NA,FALSE,Replace all firstname-space-second name to second name hyphen first name
+grep,/([0-9])-([0-9]),$1&ndash; $2,NA,NA,FALSE,Replace number-number with number–number
+grep,/(\s{3})/g,&hTab;,NA,NA,TRUE, Replace 3 or more spaces with tabulator
+grep,/(\s{2})/g, ,NA,NA,TRUE,Replace 2 spaces with one space
+grep,/(\d)-(\d)/g,$1&ndash;$2,NA,NA,TRUE,
+grep,/&space;,&hTab;,NA,NA,TRUE,indent first lines starting with space
+grep,/\c\s,\c\t,NA,NA,FALSE,same
+text,\p,\c,NA,NA,FALSE,xx
+grep,/&newline;,xxxx,NA,NA,FALSE,
+grep,/(&hTab;{2}),&hTab;,NA,NA,TRUE,two tabs to one

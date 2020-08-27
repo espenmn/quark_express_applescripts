@@ -1,0 +1,14 @@
+findType,findWhat,changeTo,caseSensitive,wholeWord,enabled,comments
+text,--,&mdash;,FALSE,FALSE,TRUE,Find all dash-dash and replace with an em dash.
+text, - ,&ndash;,FALSE,FALSE,TRUE,Find all space-dash-space and replace with an en dash.
+text,  , ,FALSE,FALSE,FALSE,Find all double spaces and replace with a single space.
+text, :,:,FALSE,FALSE,TRUE,Find all space-colon and replace with a colon.
+text, ?,?,FALSE,FALSE,TRUE,Find all space-question mark and replace with a question mark.
+text, !,!,FALSE,FALSE,TRUE,Find all space-exclamatory sign and replace with an exclamatory sign.
+text, =,=,FALSE,FALSE,FALSE,Find all space-equals to and replace with an equals to sign.
+text, .,.,FALSE,FALSE,TRUE,Find all space-full stop and replace with a full stop.
+text,xpress,QuarkXPress,FALSE,TRUE,FALSE,"Replace ""xpress"" with ""QuarkXPress"" NOT enabled. Please enable to test"
+grep,/^(\w*)\s(\w*)/g,$2 - $1,NA,NA,FALSE,Replace all firstname-space-second name to second name hyphen first name
+grep,/xpress/,QuarkXPress,NA,NA,FALSE,Replace only first instance of xpress with QuarkXPress
+grep,/xpress/gi,QuarkXPress,NA,NA,FALSE,Replace all instances of  xpress with QuarkXPress keeping the search case insensitive
+grep,/\d{10}/g,0,NA,NA,FALSE, replace all ten digit phone numbers to all zeroes
