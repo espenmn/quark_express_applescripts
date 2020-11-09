@@ -1,4 +1,4 @@
- 
+
 
 tell application "QuarkXPress 2018"
 	activate
