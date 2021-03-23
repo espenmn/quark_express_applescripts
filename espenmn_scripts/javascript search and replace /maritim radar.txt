@@ -1,0 +1,1020 @@
+&nbsp;
+
+!!! maal "Radar"
+    Gjennom lange tider har menneskene syslet med problemet å se gjennom mørke og tåke. Særlig for trafikken til sjøs ville en løsning av dette ha sin store betydning. Mange oppfinnelser har vært gjort på dette området, med større eller mindre hell, og mange forslag og prosjekter er blitt drøftet, men det først under den store krigen 1939–1945 at vidunder-instrumentet RADAR fikk sin praktiske utforming.
+
+!!! bilde ""
+    ![](media/k39_image4.png){:width="400px" .pdf-45}![](media/k39_image5.png){:width="400px" .pdf-45}
+    Figur 1: Kart versus radar
+
+Ordet RADAR er satt sammen av de første bokstavene i den engelske forkortelsen «radio detection and ranging». På norsk vil forkortelsen være noe sånn som **«deteksjon (oppdage) og avstandsmåling ved hjelp av radio»**. Og det er nettopp det radarapparatet gjør; det lokaliserer en gjenstand, oppdager den og måler avstanden bort til den. Gjenstanden kan være en holme, et skip, et flytende sjømerke eller en hel kystlinje. Ved hjelp av radaren får vi et bilde av omgivelsene. Vi ser det omtrent som i fugleperspektiv (fig.1). De faste gjenstander trer fram som lysende prikker, flekker eller felter på mørk bunn.
+
+Ofte har radarbildet vært sammenlignet med et kart, men dette er ikke helt riktig. Noe av det vanskeligste og det aller viktigste for navigatøren er derfor å lære å tyde og forstå radarbildet. Og det må slås fast at radar er bare ett *hjelpemiddel* i navigasjon, men riktig nok av de mest betydningsfulle vi har.
+
+Radarapparatet slik vi kjenner det i dag, er et resultat av mange års teknologiske oppfinnelser og utvikling av nye og bedre løsninger. Selv om det i dag er mange ulike typer radarer på markedet med nokså ulik teknisk oppbygging, virkemåte og teknologi, er det fremdeles *Pulsradaren* som omtales som «den» Maritime radaren. Det er derfor pulsradaren vi vil ta for oss og omtale i dette kompendiet.
+
+
+!!! greenbox "Enkelt forklart vil radar kunne beskrives på følgende måte"
+    Fra den roterende antennen blir det sendt ut radiobølger. Disse blir reflektert fra forskjellige objekter, de blir forsterket og kan bli sett på en indikator/skjerm.
+
+
+
+
+### Avstandsmåling ved hjelp av ekko
+
+Radar arbeider etter ekkoprinsippet. Det er derfor nødvendig å nevne noe om dette prinsippet først. Noe vi alle har erfart, er at hvis vi roper mot en fjellvegg som er et stykke borte, hører vi kort tid etter et ekko komme tilbake. Jo lenger borte fjellveggen er, desto lengre tid varer det før ekko kommer tilbake. Med andre ord – tiden fra utsendelsen av ropet og til ekkoet kommer tilbake, er et mål for avstanden til fjellveggen.
+
+Lydens hastighet i luft er avhengig av temperaturen i lufta. La oss anta at temperaturen er slik at lydens hastighet er *330 m pr. sekund*, og at vi istedenfor å rope bruker fløyta. Hvis da ekkoet kommer tilbake om *ett sekund*, må det være *165 m* til den reflekterende gjenstand (fjellveggen). Lyden har jo da gått 165 m fram og 165 m tilbake, til sammen 330 m.
+
+!!! bilde ""
+    ![](media/k39_image6.png)
+    Figur 2 Lydekko
+
+
+
+Et mottak på en tid på 4 sekunder gir da 330 m x 4 = *1320 m* som må deles på to da signalet har gått frem og tilbake. Avstanden er da 1320:2 = *660 m*. Vi ser da at:
+
+> Avstanden = $\frac{Hastigheten \cdot  tiden}{2}$
+
+
+---------------------
+
+### Avstandsmåling ved radar-ekko
+
+En foreteelse som vi alle kjenner, er at hvis vi sender en lysstråle inn mot et speil, vil den bli reflektert tilbake. Vi vet også at slik refleksjon av lys følger bestemte lover, f.eks. at innfallsvinkelen er lik utfallsvinkelen.
+
+!!! bilde ""
+    ![](media/k39_image7.jpg)
+    Figur 3 Radarekko
+
+Det lys som kommer tilbake fra speilet er i virkeligheten *lysekko* på samme måte som det lydekkoet vi har omtalt. Lyset forplanter seg ved bølgebevegelse på samme måten som lyden, men lysets hastighet er hele **300 millioner m. pr. sekund**. På grunn av denne store hastigheten kan vi ikke merke noe tidsforløp mellom utsendelsen av et lysglimt mot et speil til vi ser glimtet i speilet. Det imidlertid klart at all den tid lyset har en viss hastighet, må også den minste veilengde den tilbakelegger, ta en viss tid. Vi skjønner av dette at vi er inne på det samme prinsipp som avstandsmåling ved hjelp av lydekko. Vanskeligheten er å måle så små tidsforløp, men slik er radaren konstruert for å gjøre.
+
+Forsøk har vist at lysbølgene og de som utnyttes i radio og radar, er praktisk talt av samme slag, og de kalles *elektromagnetiske bølger.* De har alle samme hastighet og refleksjonsegenskaper, og de forplanter seg i rette linjer så lenge de går gjennom samme slags stoff.
+
+I radar sendes disse bølger ut fra en antenne. Det utsendte signal (eller usynlige lysglimt) kaller vi en *puls.* Ved hjelp av radarantennen kan også *ekko-pulsen* oppfanges.
+
+Hvis vi sender ut en slik puls fra antennen mot et mål, og det går ett sekund før ekkoet kommer tilbake, må det være hele 150 millioner m. hver vei, til sammen *300 000 000 m.*
+
+!!! bilde ""
+    ![](media/k39_image8.png)
+    Figur 4 Beregning av avstand Foto: Misje Collection, Kurt Misje
+
+> I prinsippet vil da en milliondels sekund (0,000001) tilsvare en avstand på 150 m. Et milliondelssekund kaller vi et ***mikrosekund (µs)**,* og vi kan si at dette er tidsenheten i radar.
+
+ 
+
+Frekvensens betydning (bølgelengde)
+===================================
+
+Vi kjenner alle til bølgene på sjøen. Disse består av bølgetopper og bølgedaler. Slik er det med all bølgebevegelse, enten det er bølger på sjøen eller lyd- eller radarbølger (elektromagnetiske bølger). Det er derfor nødvendig å se litt på denne bølgebevegelse i sin alminnelighet.
+
+Hvis en bølgebevegelse er slik at det er ulik avstand mellom bølgetoppene, kalles den uharmonisk, men hvis det derimot er lik avstand mellom alle bølgetoppene og alle bølgetopper er like høye, har vi såkalte harmoniske bølger. Radarbølgene er harmoniske bølger.
+
+!!! bilde ""
+    ![](media/k39_image9.png){:width="400px" .pdf-45}
+    Figur 5 Harmoniske bølger
+
+Det er også en del andre utstykk som det er nødvendig å kjenne til. Bølgelengden er avstanden mellom to bølgetopper som følger på hverandre.
+
+!!! viktig "Bølgelengde" 
+    Bølgelengden ved alminnelig skipsradar er 10 cm eller 3 cm. 
+
+Hastigheten er den veilengde en bølgetopp tilbakelegger på ett sekund. Radarbølgenes hastighet er jo, som nevnt, 300 millioner m pr. sekund
+
+Frekvensen er det antall bølgetopper som passerer et fast punkt på ett sekund (antall bølger pr. sekund) med benevnelsen *Hertz (Hz).* Da hastigheten er konstant, er det klart at jo kortere bølgelengden er, desto flere bølger vil passere pr. sekund, eller som vi sier, frekvensen blir da større. Da hastigheten til radarbølgene er så stor og da dessuten bølgelengden er liten, vil frekvensen av disse bølgene bli ganske stor.
+
+
+!!! formel "3cm og 10 cm radar"
+    3 cm radar = ca. 9 GHz (X-bånd) 
+    10 cm radar = ca. 3 GHz (S-bånd)
+
+
+**X- og S-bånd** er en internasjonal inndeling hvor det settes bokstaver på radarbånd etter frekvens og bølgelengde. For eksempel imellom (5 cm radar) finner vi C-bånd.
+
+!!! viktig "3 cm vs 10 cm"
+    Jo større frekvens jo kortere mellom bølgetoppene (flere svingninger). Jo tettere svingninger jo mer detaljert bilde av de nærliggende omgivelser. Tradisjonelt har derfor 3cm radar blitt betraktet som en bedre radar i kystnære farvann enn 10 cm radar. 
+
+------------------------
+
+
+Pulslengdens betydning
+======================
+
+For at radaren effektivt skal kunne måle avstander ved hjelp av ekko, må den utsendte puls være *kraftig;* den må være kort, og det må ikke sendes ut en ny puls før ekkoet fra forgående puls er kommet tilbake. Disse betingelsene må oppfylles ved enhver form for avstandsmåling ved hjelp av ekko.
+
+Pulslengden er kort forklart den tiden radaren åpner for sending. Lengden på pulsen i meter blir da bestemt av hvor lenge vi holder luken åpen og lar pulsen strimle ut før vi kutter den. 
+
+> **Pulslengde oppgis derfor i mikrosekund (µs).**
+
+Som tidligere eksempel viser, **vil pulslengde = 1µs tilsvare en fysisk lengde på 300 m.**
+
+
+### Radarpulsen må være kraftig
+
+Dersom en roper mot en fjellvegg som er et stykke unna, må en ta godt i hvis en skal høre noe ekko. På samme måten er det også med radar, men da radar skal gi ekko fra mål som ligger ganske langt borte (f.eks. 40 n.mil), må den utsendte puls være så kraftig som mulig. Vi kan forsterke lyden i en retning ved å bruke en ropert, og den samme metode brukes for å forsterke radarpulsen. All energien blir altså samlet og sendt ut i en smal stråle. Dette er også nødvendig for å få peileretningen til de mål vi skal måle avstanden til.
+
+Radarpulsen retningsendes på samme måte som lyset fra en lyskaster, ut en smal stråle på en roterende antenne.
+
+Jo lenger pulsen er, jo mer energi vil pulsen ha ved retur og dermed økt deteksjons-sannsynlighet, særlig på større avstander.
+
+### Radarpulsen må være kort
+
+La oss anta vi skal måle avstanden til et mål i nærheten ved hjelp av fløyta om bord. La oss videre anta at det er 330 m til målet. Vi sender da ut et fløytesignal ved å trekke i fløytesnora i 2 sekunder.
+
+!!! bilde ""
+    ![](media/k39_image10.png)
+    Figur 6 Send - mottak
+
+På 2 sekunder går lyden i luft 330 m x 2 = 660 m, og det vil si at starten på signalet når tilbake til vårt øre i det øyeblikk den siste resten av signalet forlater fløyta. Det er klart at vi på den måten **ikke får noe merkbart ekko i det hele tatt**. Nei, skal vi kunne høre et ekko, må det være et tydelig skille mellom det utsendte og tilbakevendte signalet.
+
+Det er klart at hvis vi bruker lang puls, vil det være umulig å måle avstander til mål som er så nære som 150 m eller mindre. Hvis en skal måle avstanden til mål nært ved, er det derfor nødvendig at pulsen er kort. 
+
+> **De forskjellige radarapparater sender ut pulser av 1 til 0,1 mikrosekunds varighet, dvs. pulslengder fra 300 m til 30 m.** 
+
+Som vi seinere skal se, er det også nødvendig av andre grunner å ha liten pulslengde hvis radar skal gi et godt bilde.
+
+
+!!! bilde ""
+    ![](media/k39_image11.png)
+    Figur 7 PRF og pulslengde
+
+## Pulsfrekvensen (PRF)
+
+!!! greenbox "Pulsfrekvens"
+    Med pulsfrekvensen mener vi **antall utsendte pulser pr. sekund (Hz)**. 
+
+
+Er f.eks. pulsfrekvensen 100, menes det at det blir sendt ut 100 pulser pr. sekund. Som tidligere nevnt bygger radar på det prinsipp å uavbrutt måle avstand til mål som er i nærheten ved hjelp av ekko. For å få et mest mulig riktig bilde av omgivelsene er det derfor nødvendig å foreta denne avstandsmålingen så ofte som mulig. Samtidig må vi huske på at pulsen som er sendt ut skal ha tid til å komme tilbake før det blir sendt ut en ny puls, slik at vi kan ikke bare pøse på med masse pulser. 
+
+> ***Hvor ofte en da kan sende ut en puls, er betinget av den tiden som denne bruker frem og tilbake (kan ikke sende før vi har mottatt allerede utsendte pulser).*** 
+
+Radaren vil derfor være innstilt med visst antall pulser tilpasset den maksimale avstanden den hele tiden rekker å få tilbake de utsendte pulser.
+
+Da de fleste radarsett er beregnet på å måle avstander til mål som er 30 til 40 nm borte, kan vi ikke sende oftere enn hvert ca. 370 mikrosekund (12,35 x 30), eller 500 mikrosekund (12,35 x 40). Radarapparatet må imidlertid ha en viss tid til å nyttiggjøre seg ekkoet, og av den grunn kan ikke settet sende ut en puls med det samme ekkoet er kommet tilbake, men det må ha en viss hviletid mellom hver utsending. De aller fleste sett sender derfor ut en puls hvert 1000. mikrosekund. Dette svarer til 1000 pulser pr. sekund. Vi sier da at pulsfrekvensen er 1000 pulser pr. sekund (1000 Hz.)
+
+Etter hvert som antenne roterer sendes og mottas pulser kontinuerlig innenfor radarstrålen. 
+
+> **For god deteksjon av radarmål, sier man at ca. 8–10 pulser bør treffe målet** for at det skal presenteres som et tydelig mål på radarskjermen. 
+
+Det er da samtidig viktig å ha en pulsfrekvens som oppnår nok pulser for god deteksjon etter hvert som antennen roterer.
+
+### Sammenheng mellom range, pulslengde og PRF på vanlig maritim radar
+
+Pulslengde og PRF vil være automatisk tilpasset den range vi velger. Størrelsen på disse varierer litt mellom produsentene. Pulslengde kan også stilles manuelt til de størrelser nedenfor innenfor samme range. Det gjøres for eksempel for å oppnå bedre skilleevne ved å velge kortere pulslengde, eller gjøre mindre ekko større (dra ut) ved å velge lengre pulslengde.
+
+!!! bilde ""
+	| Range (nm) | Pulslengde (µs) | PRF (Hz) |
+	| :--: | :--: | --: | 
+	|  0,25–1,5   |  0,07 (short)         |   3200
+	|  3               |  0,25 (short)         |  1600
+	|  6–12         |   0,4 (medium)     |   1200
+	|  24–96       |  1,0 (long)            |    640
+   
+	Figur 8 Fast pulslengde og PRF etter valgt «range»
+
+
+
+
+!!! bilde ""
+    ![](media/k39_image12.png)
+    Figur 9 «Short pulse» manuelt innstilt
+
+!!! bilde ""
+    ![](media/k39_image13.png)
+    Figur 10 «Very Long pulse» i samme bilde som over.
+
+
+------------------------------
+
+## Radarens evne til å skille mål (diskriminasjonsevne)
+
+La oss anta at vi har et radarsett som nytter en pulslengde på 0,5 mikrosekund, det vil igjen si at pulsens lengde er 150 m. La oss videre anta at vi har en bøye som ligger 4 n.mil borte. Når begynnelsen av pulsen treffer den, vil ekkopulsen begynne å returnere mot antennen, og så lenge bøyen er inne i pulsen, vil ekko bli sendt tilbake til antennen. Da utgående puls er 150 m, må jo også ekkopulsen være 150 m. På radarskjermen får vi da et bilde av bøyen som er trukket en del ut i radiell retning. En skulle tro at dette ekkoet ville bli trukket ut så langt som pulslengden, men ved nærmere ettertanke forstår vi at ekkoet på skjermen bare blir trukket ut ½ pulslengde, nemlig i dette tilfelle til 75m *(når avstanden til målet er 4 n.mil, må jo pulsen tilbakelegge 8 n.mil, det er det samme forholdet som gjør at ekkoet ikke blir trukket ut en hel pulslengde, men bare en ½ pulslengde).*
+
+> ***Etter dette kan vi da slutte at ett mål blir trukket ut i ½ pulslengde i radiens retning på grunn av pulslengdens virkning. ***
+
+Ligger det to mål i samme peiling og disse målene ligger nærmere hverandre enn ½ pulslengde, vil det på skjermen bare få opp ett ekko av de to mål.
+
+!!! bilde ""
+    ![](media/k39_image14.png)
+    Figur 11 Diskriminasjonsevne Foto: Terje Størksen, Haugesunds Avis
+
+Dette ekko vil bli så langt som ½ pulslengde pluss avstanden mellom målene i radarbildets målestokk.
+
+### Øy som ligger nær kysten
+
+Når en øy ligger nærmere kysten enn ½ pulslengde, vil denne øya vise seg på radarbildet som en odde.
+
+### Maksimumsrekkevidden (pulslengde)
+
+Denne er i første rekke avhengig av antennens høyde, men vi regner radarens maksimumsrekkevidde under normale atmosfæriske forhold som ca. 10 % større enn den optiske. Maksimumsrekkevidden er dessuten avhengig av pulslengden, siden en lang pulslengde gir sikrere mål på lang avstand enn når pulslengden er kort. En lang pulslengde har imidlertid blant annet den svakhet at en vanskelig kunne skille ut de forskjellige mål. Enkelte radarsett er derfor slik utstyrt at en kan bruke en kort pulslengde på kort avstand/range, mens en bruker lang pulslengde når en har det stående på stor rekkevidde/range.
+
+!!! bilde ""
+    ![](media/k39_image15.png)
+    Figur 12 Rekkevidde
+
+### Minimumsrekkevidden (pulslengden)
+
+Med radar er det altså slik at den ikke kan registrere mål som ligger nær skipet. Det er først når målene er kommet litt på avstand at radaren kan oppdage dem. Hvor denne grense – *minimumsrekkevidden* – er, avhenger i alminnelighet av pulslengden.
+
+Vi har tidligere vært litt inne på dette, idet vi en gang presiserte at pulsen måtte være kort. Hvis vi har en radar som bruker en pulslengde på 1,0 mikrosekund, er jo pulsen 300 m lang. Det er da innlysende at denne radar ikke kan oppdage et mål som ligger 150 m fra antennen eller nærmere.
+
+!!! bilde ""
+    ![](media/k39_image16.jpg)
+    Figur 13 Minimumsrekkevidden
+
+Begynnelsen av pulsen når jo antennen i det øyeblikk da siste rest av pulsen forlater antennen. Hvis pulsen hadde vært 0,5 mikrosekunder, ville denne grense, minimumsrekkevidde, ha vært 75 m. Det er klart at det må ordnes slik at begynnelsen på pulsen når antennen et øyeblikk etter at siste rest av pulsen har forlatt antennen. Vi kan si det slik at radaren må ha en viss tid etter hver utsending til å gjøre seg klar til å ta imot ekko. Dette forhold fører til at de før nevnte grensene (150 m og 75 m) i praksis må fordobles, slik at et radarsett med en pulslengde på 1,0 mikrosekund har en minimumsrekkevidde på ca. 300 m, og et med 0,5 mikrosekunds pulslengde har en minimumsrekkevidde på 150 m.
+
+!!! bilde ""
+    ![](media/k39_image17.png)
+    Figur 14 Dødsone som følge av minimumsrekkevidde
+
+Alle radarsett har altså et dødt felt ved senteret, og størrelsen av dette feltet er stort sett avhengig av pulslengden. Hvis noe mål kommer nærmere skipet enn minimumsrekkevidden, vil det altså ikke kunne vises på skjermen.
+
+ 
+
+### Sammendrag
+
+!!! oppsummering "Pulslengden forårsaker at:"
+    
+    1.  Et mål blir på bildet framstilt lengre i radiens retning enn det i virkeligheten er.
+    
+    2.  To mål i samme retning blir framstilt på skjermen som ett mål, når de virkelige målene ligger ganske nær hverandre.
+    
+    3.  Radarens maksimums- og minimumsrekkevidde blir påvirket. Jo større pulslengden er, desto større blir målene framstilt på skjermen, og både maksimums- og minimums-rekkevidden øker med voksende pulslengde.
+
+
+----------------------------------
+
+
+
+Effektens betydning
+===================
+
+Effekt er ikke så mye omtalt i radarteorien som pulslengde og frekvens, selv om at den har sitt å si for ytelsen til radaren. Pulseffekten er den effekten senderen omsetter ved sending. Ligger normalt mellom 2 kW–75 kW. Radarens evne til å fange opp ekko vil også være bestemt av størrelsen på den utsendte effekten. 10 cm radar har vært mye omtalt som bedre på større avstander enn 3 cm. Dette skyldes i mange tilfeller at den er utrustet med en kraftigere sender. Det er registrert tilfeller hvor fartøy ved kai med påskrudd 10 cm radar har slått ut sensitive systemer i nærliggende butikkbygg.
+
+Hadde vi påkostet 3 cm radar sendere med samme effekt (f.eks. 25 kW kontra typisk 10 kW) ville forskjellen vært minimal.
+
+Ekkopulsen svekkes betraktelig på sin reise tur retur antennen, den utsendte effekt har derfor noe å si.
+
+I praksis vil en si at den totalt omsatte effekten på radar blir liten grunnet korte pulslender (radarens sendetid er betraktelig liten i hele sende-/mottaksperioden). Utover sendereffekt blir det radarens egenskap til å forsterke ekkomål på mottakssiden som blir det avgjørende.
+
+!!! bilde ""
+    ![](media/k39_image18.png)
+    Figur 15 Utsendt effekt på Radar
+
+ 
+------------------------
+
+
+Radarens oppbygging/hoveddeler
+==============================
+
+!!! bilde ""
+    ![](media/k39_image19.png){.pdf-half}
+    Figur 16 Radarens hoveddeler
+
+Radaren består av mange deler som sammen representerer radarens funksjon og ytelse. Samlet sett kan vi kan dele radaren inn i følgende hoveddeler:
+
+- **Sender og mottaker**
+- **Antenne**
+- **Indikator (display/skjerm)**
+- **Kontrollpanel (menyer/funksjoner)**
+
+Sender- og mottaksdel kan leveres i dag med en såkalt «upmast-tranceiver» plassert rett under radarantennen. Sender- og mottaksdel («tranceiver») inneholder flere komponenter som sender og mottar radarpulser gjennom antennen.
+
+
+
+!!! bilde ""
+    ![](media/k39_image20.jpeg)
+    Figur 17 Upmast tranceiver 
+
+På et konvensjonelt radarsystem kan komponentene være plassert annerledes. Alt unntatt antenne kan gjerne være plassert nede under dekk, der signaler sendes og mottas gjennom en bølgeleder til og fra antennen.
+
+!!! bilde ""
+    ![](media/k39_image21.png)
+    Figur 18 Blokkskjema av Furuno-radar
+
+!!! bilde ""
+    ![](media/k39_image22.jpeg)
+    Figur 19 Prosessor (datamaskinen)
+
+## Prosessor
+
+Prosessordelen (datamaskinen) er mellomleddet som på sendersiden sender signaler via trigger til tranceiver, og på mottakersiden signalbehandler og videoforsterker ekko til presentasjon på indikator. Vi ser av skissen over at de aktiveringer vi foretar oss på kontrollpanelet også går gjennom prosessordelen.
+
+!!! bilde ""
+    ![](media/k39_image23.png)
+    ![](media/k39_image24.jpg)
+    Figur 20 Sender (tranceiver)
+
+## Senderen (transceiveren)
+
+Senderen består av flere komponenter, her finner vi triggerkrets, modulator og magnetron (senderør).
+
+### Trigger
+
+Triggeren (utløser) skal produsere regelmessige synkroniseringspulser (PRF) for starten på senderoperasjonen, altså hvor ofte radaren skal sende ut sine pulser. Det er vanlig at triggerkretsen tilbyr 3–4 forskjellige PRF-er. For å unngå falske ekko som kan oppstå ved mottak av tidligere utsendte ekko fra fjerne mål, er det vanlig å variere (modulere) PRF litt.
+
+Triggerkretsen sørger også for at mottaker starter tidsmålingen på riktig tidspunkt, Det vil igjen henge sammen med riktig avstand på radarskjermen *(se avstandsmåling under VRM)*.
+
+ 
+
+### Modulator
+
+Puls fra trigger vil gjennom modulatoren lades opp med energi med høy spenning som den forsyner magnetronen (senderrøret) med. I sin prosess vil også modulatoren påvirke selve formen på pulsen som sendes ut.
+
+### Magnetron (sender-rør)
+
+Magnetron sin oppgave er å omsette den kraftige tilførte spenning fra modulatoren til høyfrekventerte svingninger (frekvens) i sendepulsen. Frekvensen ligger enten rundt 9500 MHz (3cm radar) eller 3000 MHz (10 cm radar). Frekvensen er gitt av hulrommets størrelse i senderrøret.
+
+
+!!! viktig "NB!"
+    Magnetron er en slitedel som må skiftes ut etter en viss tid. Sjekk radarmeny eller skjerm (st.by mode) for gjennomført driftstid og sammenlign med anbefaling om utskiftning i radarens instruksjonsmanual (vanligvis noen tusen timer). 
+
+
+!!! bilde ""
+    ![](media/k39_image25.jpeg){:width="400px" .pdf-half}
+    ![](media/k39_image26.jpeg){:width="400px" .pdf-half}![](media/k39_image27.jpeg){:width="400px" .pdf-third} 
+    Figur 21 Magnetron
+
+
+
+
+## Antennen
+
+Radarantennen er montert på toppen av en mast eller lignende. Det er viktig at antennen henger høyt og fritt for best mulig rekkevidde og fri sikt i alle retninger. Den vanligste maritime radaren er en *«slotted waveguide»-*antenne, på norsk blir dette spaltet bølgeleder.
+
+Antennen drives rundt av en skannermotor i en girboks. Bølgelederen vil være beskyttet av deksel med kunststoff og pakning for å unngå at vann trenger inn.
+
+!!! bilde ""
+    ![](media/k39_image28.jpeg)
+    Figur 22 Radarantennen
+    
+
+Det er et bestemt forhold mellom bølgelengden og den horisontale strålingskarakteristikken. Ønsket vil være en smalest mulig stråle som oppnår en god peilingsnøyaktighet til det vi detekterer. Bølgelederen i antennen er satt sammen på en slik måte at jo bredere denne er, jo smalere vil strålen bli, fordi sammensetningen tar utgangspunkt i halve bølgelengden (3- eller 10 cm). Lengre bølgelengder krever da lengre antenner for å oppnå samme (smale) strålebredde. Vanlige størrelser på radarantenner tilpasset bølgelengden:
+
+> **X-bånd – 6 fot (2 m)**
+
+> **S-bånd – 14 fot (4,7 m)**
+
+
+Selv om S-båndantennen er over dobbel så stor, greier den ikke å oppnå en horisontal strålebredde ned mot 0,5º**–**1º, slik X-bånd-antennen greier. Skal vi oppnå tilsvarende ytelse på en S-båndradar, måtte dimensjonen på denne være 18 fot (6m) lang. Da skjønner vi at dette blir stort og tungt å drive, samtidig som det vil ta masse plass i radarmasten.
+
+!!! bilde ""
+    ![](media/k39_image29.jpg)
+    Figur 23 Horisontal og vertikal strålebredde Foto: Magne Klann/Norsk Maritimt Forlag AS
+
+Strålingskarakteristikken vil normalt ligge på horisontalt <2º, alt etter størrelsen på antenne.
+
+Vertikalt 15–20º. Vertikalt må den være tilpasset slik at vi ikke mister mål pga. skipets bevegelse, samt detektere nærliggende mål ved høye antenneplasseringer.
+
+### Rotasjonshastighet
+
+Normalt ligger omdreiingene mellom 20–60 RPM (rotation pr. minute). Jo raskere den går, jo oftere oppdaterer radarbildet seg. Antennens hastighet vil ha større betydning jo raskere fartøyet går, samt når den relative hastigheten mellom fartøy blir stor. Hurtigbåter er derfor utrustet med antennemotorer som går raskere for raskere oppdatering av radarbilde. Det kan gå utover deteksjonsevnen da vi vet det avhenger av antall pulser som rekker å treffe målet. En raskere antennemotor vil også kunne kreve mer vedlikehold da det sliter mer på denne.
+
+### Bølgeleder
+
+Vi har omtalt bølgelederen i antennen, en annen bølgeleder er den som overfører signal fra senderøret til antennen. Et spesialtilpasset **rektangulært rør** overfører pulsen til antennen. Denne bølgelederen (røret) er tilpasset bølgelengden, dette for å unngå energitap. En bølgeleder til en 10 cm radar vil være ca. tre ganger så stor som til en 3 cm radar.
+
+!!! bilde ""
+    ![](media/dimensjon.png)
+    Figur 24. Bølgeleders dimensjon bestemt av bølgelengden
+
+Det er viktig at denne er blankpolert på innsiden slik at man unngå energitap. Korrosjon på innsiden av røret vil redusere ytelsen til radaren. Lekkasje/fukt vil også kunne gi stort energitap.
+
+En spesialtilpasset koakskabel kan av praktiske utfordringer benyttes istedenfor, men vil igjen føre til mye større energitap. Koakskabel kan være aktuelt på en konvensjonell 10 cm radar hvis bølgeleder anses som for kostbart.
+
+
+## Strålefare
+
+!!! bilde ""
+    ![](media/k39_image31.jpeg){:width="400px" .pdf-half}
+    Figur 25 Fareskilt på radar
+
+Radaren sender høyfrekventerte pulser med stor styrke som kan være skadelig for omgivelsene. Det er derfor viktig å være bevisst faren forbundet med å oppholde seg i nærheten av radarsenderen. Historien gir skremmende eksempler på tilfeller der folk som har vært utsatt for radarstråling har fått barn med misdannelser, redusert fertilitet, depresjon osv. Annet skrekkeksempel forteller om hyppige tilfeller av kreft blant mannskap på et fartøy med en spesiell type sterk radar.
+
+Den utsendte effekten fra en maritim radar vil kunne definere en anbefalt sikkerhetsavstand til radarantennen. «Statens strålevern» vil gi føringer og anbefalinger på dette. Under en roterende radarantenne vil en bare bli utsatt for høy stråling i det øyeblikk en befinner seg i senteret på radarstrålen (hovedloben). Anbefalt minsteavstand vil da ikke være så høy. Hvis radaren stoppes, men fremdeles sender og en tilfeldigvis står i hovedloben, vil det være en anbefalt minsteavstand på 7–9 meter utfra gjeldende grenseverdier. Det er verdt å nevne at noen nasjoner operer med strengere grenseverdier for hva som er anbefalt enn Norge og andre land.
+
+Det vil uansett være en god regel å ikke oppholde seg i området rundt en radarantenne som ikke er skrudd helt av. I de tilfeller det skal utføres nødvendig arbeid i umiddelbar nærhet skal varselskilt legges godt synlig ved radarapparatet, slik at en unngår ulykker med dette.
+
+!!! bilde ""
+    ![](media/k39_image32.png)
+    Figur 26 TR-rør
+
+## Mottakerenheten
+
+Mottakerens oppgave er å oppdage og forsterke mottatte signaler. Den forsterkede ekkoenergien/støyen blir så sendt til indikatoren. Radarens rekkevidde kan i mange tilfeller avhenge mer av mottakers følsomhet enn av senderens effekt**. **
+
+### TR-røret
+
+Denne vil sørge for å beskytte mottakerenheten fra de kraftige pulsene som sendes ut fra magnetronen. For å kunne motta nærliggende ekko som kommer raskt tilbake må dette røret åpne så snart den utgående puls er gått ut. Ved å benytte radioaktivt TR-rør, vil mottakeren også være blokkert når radaren er avslått. På denne måten unngår vi mulig skade på mottaker og mikserdel fra andre nærliggende og aktive radarer, f.eks. i havneområder.
+
+### Frekvensmikseren
+
+Mikseren reduserer frekvensen på innkommende signal, slik at det lettere lar seg forsterke. Etter miksing, hvor man tar ut differansen mellom ulike frekvenser, vil den såkalte mellomfrekvensen sendes til videre forsterkning i mellomforsterkeren. Det er svært viktig at mellomfrekvensen holdes konstant for å sikre gunstig forsterkning og bilde. Det kan kontrolleres ved bruk av en automatisk frekvenskontroll (AFC). I verste fall kan en plutselig endring i mellomfrekvensen gjøre at radarbildet går ut av «tune».
+
+### Mellomforsterker
+
+Forsterker signalene like etter at de er kommet fra mikseren, slik at de ikke utsettes for støy. Da signalstyrken på ekkoene vil variere svært mye, kreves det av forsterkeren at den kan arbeide i stort signalområde. For å kunne skille nærliggende ekko fra kraftig sjøstøy er forsterkeren utstyrt med en logaritmisk forsterker som kalles sensitivity time control (STC) eller «anti clutter sea». STC kretsen vil typisk kunne være virksom ut til maksimalt 4–5 nm.
+
+
+-------------------------------
+
+### Videoforsterker og digitalisering
+
+Fra mellomforsterker i mottakerdelen overføres signalet til ***videoforsterkeren*.** Her forsterkes signalet sammen med annen informasjon som skal vises på skjermen, f.eks. avstandsringer, peileskala, syntetiske linje, tekst og symboler osv. Det analoge signalet fra mellomforsterker må digitaliseres for videre behandling.
+
+!!! bilde ""
+    ![](media/k39_image33.png)
+    Figur 27 Digitalisering
+
+Det gjør en ved å legge inn en terskel og si at alle signaler over terskelen skal vises med full styrke (1) og alle under terskelen strykes (0). Terskelens nivå bestemmer hvilke signaler som skal bli synlige for oss. Det er meget viktig at mottakeren er riktig justert slik at viktige signaler kommer over terskelen.
+
+Signalet må tilpasses en rektangulær skjerm (raster scan) ved å legge den digitale videoen inn i en minnematrise eller digital matrise. Videre konverteres dette til et kartetisk koordinatsystem (scan conversion) og gir et bilde som blir mye mer lyssterkt, da ekko belyses for hvert scan på skjermen og ikke kun hver antennerotasjon som var vanlig på eldre radarskjermer.
+
+## Indikatoren
+
+!!! bilde ""
+    ![](media/k39_image34.jpeg)
+    Figur 28 Indikator, PPI
+
+***Display*** skal i henhold til IMO sine forskrifter kun presentere radarekko som en farge om gangen, uansett modus for å ikke blande ekko fra hverandre, men tyde de selv. Intensive farger bør unngås ved å dimme lysstyrken ned for å ikke påvirker natt- eller fargesyn.
+
+ 
+!!! bilde ""
+    ![](media/k39_image35.png)Performance Monitor
+    Figur 29 Performance monitor
+
+Denne funksjonen tester radarens ytelse ved sending og mottak. Særlig aktuell vil det være å bruke denne ved seilaser hvor det sjeldnere oppdages mål, for eksempel over storhavene. Det vil også kunne gi et mål på forventet styrke på ekko. Hvis de spesifikke ekko (se figur) synes svakere enn forventet, kan det tyde på svekket radarytelse. Årsaker til det kan komme av utslitt senderrør/magnetron, feil i mottaker osv. Det bør da feilsøkes og utbedres ved første anledning. Sjekk radarens brukermanual for hva som er forventet styrke ved aktivering av «performance monitor».
+
+## Vedlikehold
+
+En radar trenger ikke så mye vedlikehold, men vil ha enkelte slitedeler som må skiftes ut med jevne mellomrom. Som med mye annet om bord er det viktig at vi har en oversikt over de deler og komponenter som krever dette. Eksempler på det kan være;
+
+- Magnetron
+- Børster på scannermotor (hvis det er).
+- Sikringer
+- Støvfiltre
+
+Kontroller radarens manual for å få oversikt over de deler som krever vedlikehold. Jevnlig rengjøring av datautstyr anbefales (husk spesialstoff). Videre eksempelvis smøring av bevegelige deler, pakninger osv.
+
+
+!!! viktig "NB!"
+    Husk at radardeler kan være svært sensitive for ytre påkjenninger, dette gjelder også magnetiske felt rundt magnetkompasset. Derfor oppbevare/lagre radardeler slik at de ikke blir utsatt for dette. 
+
+-----------------
+
+### Sammendrag
+
+!!! oppsummering "Sammendrag"
+
+    - Rent skjematisk kan vi si at radaren er bygget opp med en sender, antenne og mottaker.
+    - I dag brukes digitaliseringsmetoden for å vise innkomne signaler (ofte kalt videosignaler).
+    - Sjekk radarens manual for menyinnstillinger og funksjoner, samt anbefalt vedlikehold.
+
+
+Radaren er i dag meget komplisert, og vi kan svært lite gjøre hvis noe svikter, og vil derfor heller lede oppmerksomheten over på mer praktiske forhold, slik som brukerfeil og svakheter i radarprinsippet.
+
+------------------------------
+
+
+Strålebreddens betydning
+========================
+
+## Radarapparatets evne til å fremstille mål
+
+Radar gjengir et bilde av omgivelsene ved å sende ut korte pulser i en smal stråle. Denne strålen må ha en viss bredde (1º til 3º), og pulsen må ha en viss lengde og varighet (0,1 til 1,0 mikrosekund). Dette vil da følgelig på lik linje med pulslengde kunne påvirke det radarbildet vi får representert på skjermen.
+
+Effekten vil være størst i senteret av den horisontale radarstrålen og reduseres til noenlunde det halve ved dets ytterkant. Det tydeligste ekko får vi i det senteret på hovedstrålen (hovedloben) sveiper over målet.
+
+!!! bilde ""
+    ![](media/k39_image36.png)
+    Figur 30 Effekt i hovedloben
+
+ 
+---------------------------
+
+### Strålebreddens innvirkning på radarbildet
+
+Vi forutsetter at radarsettet har en strålebredde på 3º. Strålen dekker da et større område etter hvert som avstanden fra antennen øker, og når avstanden er 2 nautiske mil, vil bredden av strålen være ca. 200 m.
+
+> **Gjengivelse av ekko vil bli dradd ut en ½ strålebredde i skjermens skala.**
+
+
+
+!!! bilde ""
+    ![](media/k39_image37.png)
+    Figur 31 Økning av strålebredde med avstanden fra antenne
+
+!!! bilde ""
+    ![](media/k39_image38.png)
+    Figur 32 Strålebredde og presentasjon av ekko
+
+### Fremstilling av et mål
+
+I det høyre kant av strålen kommer over bøyen, begynner radar å registrere ekko. Når bøyen er midt i strålen, er ekkoet av bøyen på skjermen dratt ut litt til høyre. Venstre kant av strålen går over bøyen og avslutter registrering av ekkoet. Som vi skjønner, vil det bli tegnet et langt ekko av den lille bøyen. 
+
+> Bøyen som her lå 2 n.mil borte og strålebredden var 3º, **ville bøyen bli tegnet ca. en halv strålebredde (100 m bred) i skjermens skala**. 
+
+Etter dette ser vi at strålebredden har den virkningen at *målene blir trukket ut i sirkellinjens retning,* og denne virkningen er selvfølgelig større jo større strålebredden er.
+
+------------------
+
+### Fremstilling av to mål i omtrent samme avstand
+
+Etter hvert som strålen passerer, vil «sveiplinjen» tegne ekko. Hvis målene da ligger så nær hverandre at strålen ikke går klar av målene når den er midt mellom dem, vil ekko av det neste målet henge sammen med ekko av det første mål. Til slutt tegnes et ekko inn på skjermen inntil venstre kant av strålen har passert det siste målet. Resultatet blir da – som vi kan forstå – at vi på skjermen vil få et langt ekko, selv om det i virkeligheten er to mål. Denne virkningen blir større jo større strålebredden og avstanden er.
+
+!!! bilde ""
+    ![](media/k39_image44.png)
+    Figur 33 Strålebredde og diskriminasjonsevne
+
+### Fremstilling av odder
+
+Strålebredden har også den virkningen at landtunger og odder blir framstilt litt forkjært. Når høyre kant av strålen kommer inn over land, peker jo den sentrale linjen ikke mot odden, men i det øyeblikket blir odden avtegnet som ekko på skjermen.
+
+!!! bilde ""
+    ![](media/k39_image52.png)
+    Figur 34 Strålebredde og fremstilling av odde
+
+Som figuren viser, vil oddene bli tegnet lenger fram – de blir liksom trukket ut litt lenger enn de i virkeligheten er. Vi får da en **feil peiling** av oddene på skjermen. Denne feil skulle teoretisk være så stor som halve strålebredden. Hvis strålen er 3º, blir feilen i peilingen på 1,5º.
+
+### Framstilling av smal fjord eller langs trange løp
+
+Hvis vi er utenfor en kyst og det fører en smal fjord eller et trangt innløp fra den, er det ikke alltid at denne fjorden blir avtegnet på skjermen. Hvis strålens bredde er større enn fjordens bredde, vil fjorden ikke bli avtegnet på skjermen. Vi får da bare se kysten med fjorden som en rett kystlinje uten fjordåpningen.
+
+Den samme virkningen vil gjøre seg gjeldende ved å seile i trange løp. På grunn av strålebreddens virkning, vil det på skjermen se ut som om elve- eller kanalbreddene blir trukket mot hverandre. Løpet ser altså trangere ut på skjermen enn det i virkeligheten er. Et rett, langt løp kan da på skjermen se ut som om det gror helt sammen langt framme.
+
+
+
+### Sammendrag
+!!! oppsummering "Strålebredden fører til at:"
+
+    1.  Ett mål på radarbildet blir framstilt større i sirkellinjens retning enn det i virkeligheten er.
+    2.  To mål som ligger nær hverandre i omtrent samme avstand, blir trukket sammen til ett mål på skjermen.
+    3.  Framstående odder blir på radarbildet trukket lenger ut enn de i virkeligheten er.
+    4.  En smal rett fjord ser smalere ut på skjermen enn den i virkeligheten er.
+
+
+
+
+## Målets betydning (deteksjon)
+
+
+Radar fremstiller omgivelsene ved hjelp av ekko. Det er da klart at de forskjellige fysiske egenskaper målene har, spiller stor rolle for hvordan de blir avtegnet på skjermen. Hvilket materiale som målet består av har derfor mye å si for ekkoets styrke, og dessuten har målets størrelse og form mye å si for hvordan det blir avtegnet på skjermen.
+
+
+### Målets materiale
+
+Erfaring har vist at materialer som er gode ledere for varme og elektrisk strøm, også er gode reflektorer for radarpulsen. Derfor er alle metallene gode reflektorer, mens stein, tre og is er dårlige reflektorer. Derfor vil et stålskip bli mer tydelig avtegnet på skjermen enn et tilsvarende treskip, som bare gir et svakt ekko. Materialer med høy absorpsjonsevne svekker radarsignalene. Hvis vi kan sette rekkevidden mot et mål av metall til 10 n. mil, vil rekkevidden til samme mål, hvis det var av tre eller is, bare være 5 n.mil. Vi kan også si dette slik at et mål av tre eller is f.eks. reflekterer bare halvparten så mye energi som et mål av metall. Andre materialer som glassfiber f.eks. har svært dårlige refleksjonsegenskaper.
+
+### Målets størrelse
+
+Jo større målet er i utstrekning, desto større blir det avtegnet på skjermen, men selve styrken av bildet blir i grunnen ikke påvirket av målets utstrekning. Hvis vi derimot sammenligner ekko på skjermen fra et høyt og et lavt mål, vil det høye målet gi et mye kraftigere og mer tydelig ekko. Dette kommer av at strålebredden er ganske smal i horisontal retning (1º–3º), mens den er stor i vertikal retning (15–20º). Høylandet blir derfor truffet av atskillig flere pulser en lavlandet. Dette får også den virkningen at et ballastet skip gir kraftigere ekko enn når det samme skipet er dyplastet. Det er altså høyden av målet som er det avgjørende for hvor sterkt et mål blir avtegnet på skjermen.
+
+
+----------------------
+
+
+
+### Målets form
+
+!!! bilde ""
+    ![](media/k39_image53.png)
+    Figur 35 Målets form
+
+Som tidligere forklart følger de elektromagnetiske bølgene som radaren bruker, omtrent de samme refleksjonslovene som lyset. En stor del av energien vil likevel alltid bli absorbert av det reflekterende legemet, mens en liten del blir reflektert. Av den reflekterte delen er det bare den delen som treffer antennen, som igjen påvirker mottakeren og altså setter den i stand til å avmerke et ekko.
+
+Hvis pulsen treffer en plan flate, vil den bli reflektert slik at innfallsvinkelen er lik utfallsvinkelen. Hvis denne flate står vinkelrett på senderetningen, vil det meste av energien bli rettet tilbake mot antennen. En rund gjenstand derimot, vil bare sende en liten del av energien tilbake mot antennen. En skråstilt glatt flate vil også ha dårlig respons. Er så overflaten ru av et materiale som reflekterer godt, vil dette øke sjansen for deteksjon. Målets form og overflatestruktur har altså mye å si for ekkoet. Noen marinefartøy er konstruert med en utforming som reduserer muligheten for å bli oppdaget på radar av andre fartøy.
+
+### Radarreflektor
+
+Det finnes derfor svært mange mål som gir svært dårlige ekko. Hvis slike mål er særlig viktige for navigeringen, blir de ofte utstyrt med reflektorer. Slike reflektorer består gjerne av metallplater som er satt sammen så de danner 90º vinkel med hverandre. Radarpulsen vil da i alle tilfelle bli reflektert i den samme retningen som den kom fra. Slike reflektorer blir mye brukt på sjømerker for å øke synbarheten ved radar.
+
+!!! bilde ""
+    ![](media/k39_image54.jpg){:width="400px" .pdf-45}![](media/k39_image55.jpg){:width="400px" .pdf-45}
+    Figur 36 Radarreflektor
+
+!!! bilde ""
+    ![](media/k39_image56.png){:width="600px" .pdf-50}
+    Figur 37 Racon
+
+
+
+
+Dette er en liten senderenhet som er plassert ved kystfyr e.l. og aktiveres av skipets utsendte radarsignal. Stasjonen sender ut identifikasjonssignal tilpasset **morsealfabetet** og gir oss mulighet til å måle peiling og avstand. Signalet stråler ut mot periferien og ***vi måler avstand til nærmeste ende***. Nyere racon-stasjoner aktiverer seg selv og skanner for å finne ut om det er eventuelle radarstasjoner, både X-band og S-band, i nærheten.
+
+
+> Racon vil være gode radarmål og vil hjelpe oss til å orientere oss i farvannet.
+
+--------------------
+
+### Oppsummering av forhold som påvirker deteksjon og diskriminasjon av ekkomål
+
+| Deteksjonssannsynlighet | Diskriminasjonsevnen
+| :-- | :-- |
+| Lang pulslengde øker effekten på pulsen | Kort pulslengde 
+| Høyere pulsfrekvens gir flere pulser            
+| Rotasjonshastigheten på radarantennen         
+| Høyde på mål/stor vertikal strålebredde | Smal horisontal strålebredde
+| Målets materiale, størrelse, form og overflate 
+
+
+-------------------------
+
+
+Start og innstilling av radar
+=============================
+
+![](media/k39_image57.jpg){ .pdf-32 :width: 1em  } ***Power on/off,*** radaren tilføres spenning og radaren er i gang. Den bruker 2–3 minutter før den går i st.by, dette fordi magnetron trenger oppvarming før den er klar til å sende. Det er viktig å merke seg at så lenge radaren står i st.by vil glødestrømmen på magnetron være påslått, noe som vil være med på å redusere levetiden til denne. Slå derfor radaren helt av (power off) hvis det ikke er behov for den på en liten stund, for eksempel under lasting/lossing.
+
+
+
+
+
+***St.by/transmitt*** aktiverer sending når den er klar og radarantennen begynner å rotere. Setter du den i st.by igjen vil radarantennen slutte å rotere og dermed stoppe å sende/motta.
+
+
+!!! bilde ""
+    ![](media/k39_image58.png)
+    Figur 38 Innstilling av «tune og gain»:
+
+***Tune*** er det første vi stiller inn på radarbildet. For å motta ekko på radarskjermen justeres frekvensen (tunes) på mottatt radarbølge til samme som sendt frekvens (riktig frekvens), slik at ekko kan forsterkes best mulig. Tune-funksjonen kan enten være i auto eller manuell. I manuell justeres tune slik at en får best ekko i radarskjermens ytterkant. I «autotune» skal dette gå av seg selv, men mange foretrekker å stille inn manuelt for bedre kontroll på radarytelsen.
+
+!!! bilde ""
+    ![](media/k39_image59.jpeg)
+    Figur 39 Innstilling av brilliance
+
+!!! bilde ""
+    ![](media/k39_image60.png)
+    Figur 40 Ute av «tune» – dårlig bilde
+
+***Gain*** justeres slik at ekko forsterkes etter hvor høyt denne stilles. På en annen måte kan vi si hvor mye støy du slipper inn på radarbildet ditt. Normalt justeres denne til en har litt bakgrunnsstøy rundt eget fartøy, ikke for mye da det gir rotete bilde, men heller ikke for lite da signal fra små mål må kunne mottas.
+
+!!! bilde ""
+    ![](media/k39_image61.png){:width="400px" .pdf-45}![](media/k39_image62.png){:width="400px" .pdf-45}
+    Figur 41 Gain – lite til venstre, mye til høyre.
+
+***NB!***
+
+***Ved å øke «Gain» vil en øke strålebredden litt, samt øke effekten til uønskede «sidelober» med de ulemper det fører med seg. ***
+
+### Anti clutter sea (ACS) og anti clutter rain (ACR)
+
+Clutter vil si uønsket radarsignal (rot) vi ikke ønsker inn på radarbildet vårt. Begge funksjonene reduserer/filtrerer bort uønsket støy, men på hver sin måte. Støy fra sjø er mest merkbart rundt båten og ikke så mye på større avstand, regnstøy også på lengre avstander. **Sea clutter**-funksjonen, også kalt *«sensitivity time control» (STC)*, vil da redusere forsterkningen og følsomheten for alle ekko noen få nautiske mil rundt eget fartøy.
+
+!!! bilde ""
+    ![](media/k39_image63.png)
+    Figur 42 Sea Clutter, lite støy rundt eget fartøy
+
+**Rain clutter**-funksjonen, også kalt *«fast time control» (FTC)*, vil ha den egenskap at den undertrykker (greier å skille ut) forstyrrende signaler fra nedbør i hele avstandsområdet. Det er viktig å merke seg at selv om den hovedsakelig reduserer forstyrrelser fra regn, vil en også se at for eksempel kystlinjen på radarbildet «slankes», slik at den åpenbart også kan ta bort ekko som er av betydning.
+
+!!! bilde ""
+    ![](media/k39_image64.png){:width="400px" .pdf-45}![](media/k39_image65.png){:width="400px" .pdf-45}
+    Figur 43 Rain Clutter, lavt og høyt innstilt, gir «slankere» ekko
+
+Begge clutter-funksjonene må derfor brukes med **forsiktighet,** slik at ikke viktige mål forblir usett og følgelig kan få katastrofale følger. Begge funksjoner kan stilles inn manuelt, men kan også aktiveres ved ***autoclutter*-**funksjon. Radaren vil da selv justere styrke etter forholdene. Erfaringer tilsier at denne auto-funksjonen kan være særlig skummel, da en lett blir mindre bevisst på de mål som kan være vanskelig å oppdage. Generelt kan vi si at clutter-funksjonen fungerer slik at det er bare pulser med en viss egenskap til refleksjon som vil presenteres på radarskjermen. Svake pulser fra mindre mål som småbåter og bøyer vil da også kunne forsvinne.
+
+Flere radarer, blant annet Furuno-radar tilbyr en såkalt **«echo-avarage»**-funksjon som fungerer slik at radaren gjenkjenner faste objekter som ikke endrer seg over tid, eller i radarens tilfelle over flere «sweep». Første runde/sweep tar den alt, andre runde begynner den å sortere troverdige mål ifra for eksempel sjøbølger som endrer seg raskt. På tredje runde presenterer den stort sett bare de troverdige mål, og høy sjø er da gjerne filtrert bort. Det er viktig å merke seg at også her er det en viss fare for å filtrere bort små mål fra radarskjermen.
+
+### Sender- og mottakerkontroller 
+
+| Senderkontroller | Mottakerkontroller |
+| :-- | :-- |
+|   St.By / Transmitt  |      Tuning |
+|   Pulslengde          |       Gain |
+|   PRF                    |       Anti clutter
+
+
+### Display kontroller
+
+
+
+***Brilliance/Brightness/Intensity*** (kjært barn har mange navn), justerer lysstyrken på radarskjermen slik at dette passer med de lysforhold som behøves under brovakten. På den ene siden skal lys fra radar ikke sjenere nattsyn for å optisk/fysisk kunne oppdage det som er utenfor styrehusventilene, imens det på den andre siden skal være sterkt nok lys til å lett kunne orientere seg i radarbildet. Et passelig blandingsforhold mellom disse finnes da ved å dimme radarskjermen til riktig lysstyrke. I tillegg har nyere radarer også egne menyvalg for hvilken lysstyrke og farge som skal representeres tilpasset forholdene. Eksempler på dette er *daymode, nightmode, dusk osv.* Lysstyrken (brilliance) vil uansett manuelt kunne stilles uavhengig innenfor disse modes.
+
+*Kontrast* er også en funksjon som kan finnes her. Den vil variere intensiteten mellom lyse og mørke felt til det som anses som gunstig.
+
+Utover dette finnes sekundære kontroller, slik som *Fokus* som justeres hvis bildet er uskarpt og *Shift* for horisontal og vertikal justering.
+
+***Range*** (avstandsområde) etter hvor stort område en ønsker å ha presentert på sitt radarbilde. Disse vil variere innenfor faste avstander mellom 0,25 nm og 24 nm (3–6–12 nm. osv.). Som tidligere nevnt vil radarens funksjonelle innstillinger, som pulslengde, sendereffekt og pulsrepetisjonsfrekvens (PRF) variere automatisk etter hvilket avstandsområde som presenteres på radarskjermen.
+
+*Range rings* er faste avstandsringer (med like avstander mellom hver) på radarskjermen. Avstanden mellom ringene kan varieres etter definerte valg.
+
+***VRM*** (Variabel Range Marker) en sirkel som justeres og leser av avstanden (nm.) til noe fra eget fartøy. Kan også velge *VRM offset* slik at den kan måle avstand fra eller mellom noe annet.
+
+***EBL*** (Electronic Bearing Line) er en elektronisk peilelinjal utfra gyropeiling på radarskjermen. Denne kan leses av i rettvisende peiling eller relativt til eget fartøy hvor skipets baug er 0º. Legges EBL på andre fartøy justeres den til senter på fartøy, ved landkjenning på landets ytterkant, for eksempel en odde.
+
+Kan også velge *EBL offsett,* slik at den kan måle retning mellom noe annet. De nevnte «offsett»-funksjonene vil for eksempel også kunne brukes til å sette opp en enkel «parallellindeks» til eget fartøy.
+
+Det beste vil være å bruke EBL og VRM til å bestemme skipets posisjon ved peiling og avstand.
+
+***Heading Marker*** (HM), styrestrek viser skipets kurslinje (styrt kurs) normalt utfra gyroheading. Denne kan justeres på radarskjermen og bør jevnlig visuelt sjekkes opp mot objekt (forventet heading).
+
+!!! eksempel "Eksempel på gunstig oppstart av radar:"
+    1.  Skru på radar og vent til den går i st.by (varmet opp).
+    2.  Aktiver radar ved transmit (st.by/transmit).
+    3.  Velg middels avstandsområde (range).
+    4.  Juster lysstyrke slik at sveip er så vidt synlig.
+    5.  Juster lysstyrke faste avstandsringer slik at disse synes.
+    6.  Tune inn radar til ekko blir godt synlig.
+    7.  Juster Gain slik at svak støy blir synlig nok (dette bør gjøres med range på 12 nm).
+    8.  Sjekk headingline opp mot gyrokurs på kompass.
+    9.  Aktiver og sjekk logg og GPS opp mot de aktuelle mottakere.
+    10. Juster clutter-kontrollere etter behov.
+
+!!! eksempel "Eksempel på gunstig stopp/nedstenging av radar:"
+    1.  Juster ned brilliance.
+    2.  Juster ned gain og anti clutter
+    3.  Sett radar i st.by før du eventuelt slår den helt av (Power off).
+
+!!! viktig "Andre kontroller"
+    Andre kontroller bør stå som under bruk.
+
+
+## Bildepresentasjoner (display mode)
+
+Rene presentasjoner vil si at vektorvalg og presentasjonsform er den samme. F.eks. «true motion» og «true vector». For eksempel ved relative motion, hvor omgivelsene beveger seg og eget skip er i ro, er plotting i utgangspunktet (i teorien) ikke mulig.
+
+Rene presentasjonsformer:
+1.  True motion, north up og true vector.
+2.  True motion, course up og true vector.
+3.  True motion, head up og true vector.
+4.  Relativ motion, north up og relativ vector.
+5.  Relativ motion, head up og relativ vector.
+
+***Det er ikke tilrådelig å kjøre såkalt uren presentasjonsform (blandet), fordi man lett mister oversikten og ikke vet hva man leser ut av radarbildet. ***
+
+!!! bilde ""
+    ![](media/k39_image66.png){:width="400px" .pdf-45}![](media/k39_image67.png){:width="400px" .pdf-45}
+    Figur 44 North Up til venstre og Head Up til høyre
+
+Til trafikkovervåking anbefales true motion, north up og true vector med logget fart gjennom vannet. Forutsatt at vår logg og gyro viser riktig vil vi få andre skips sanne bevegelser. Det kan være hensiktsmessig å gå over på relativ vektor for å se om ekkoveien peker mot eget skip. Da vet vi hvilke skip som er spesielt farlige med tanke på kollisjon. Etter en kort orientering må vi skru over til true vektor igjen.
+
+Dersom vi kjører med «course up» må vi huske å resette kursen ved eventuelle kursendringer.
+
+!!! bilde ""
+    ![](media/k39_image68.png){:width="400px" .pdf-45}
+    Figur 45 Course Up, aktivert på 040º 
+    
+    ![](media/k39_image69.png){:width="400px" .pdf-45}
+    Figur 46 Course Up, kurs endret fra 040º til 070º
+
+
+
+### Head Up - Relativ bevegelse (relativ motion)
+
+Når en i klarvær står på brua på et skip mens det f.eks. går ut en fjord, ser en landet på to sider av skipet passere forbi. Landet ligger selvfølgelig stille, mens skipet stadig forandrer plass. Ja, dette er nokså klart vil en vel si.
+
+La oss så foreta den samme seilasen om igjen, men denne gangen står vi inne i styrehuset og bare ser det hele i radaren. Vi går ut fra at radarbildet er relativt orientert, dvs. heading peker rett opp på 0º på skjermen. Her er alltid skipets plass i senteret, og det forblir stadig på samme sted.
+
+!!! bilde ""
+    ![](media/k39_image70.png)
+    Figur 47: Head up/Relative Motion med True vektor. Targets bevegelse på radarskjermen vil følge EBL som er satt ut og ikke sin egen vektor, siden eget skip alltid står i ro i Relative Motion.
+
+**I virkeligheten er jo skipet som beveger seg og landet som står stille, men radaren viser altså det motsatte forholdet.** Den relative bevegelsen er selvfølgelig den samme. Hvis en forandrer kurs, peker allikevel heading rett opp, mens land og faste punkter naturligvis kommer i en annen stilling i forhold til den. Land og faste punkter må da stadig forandre plass på skjermen, slik at forholdet alltid blir det riktige.
+
+«Head Up – Relative motion» er et mye brukt bilde-mode, særlig for de som seiler på kysten. Radarbildet samsvarer med det bildet vi har utenfor styrehusglasset. Baugen rett frem med skipstrafikk og land på hver sin side. Det er viktig å merke seg at det krever en viss trening å seile i denne mode. Når eget skip skal rundt et nes eller lignende vil flere hevde en har bedre kontroll (føling) på skipets bevegelse i North Up hvor det faktisk er fartøyet og ikke omgivelsene som beveger seg.
+
+
+---------------------
+
+Krav til radar
+==============
+
+**Fra «Lovdata.no»:**
+
+!!! bilde ""
+    [![](media/k39_image71.png)](https://lovdata.no/dokument/SF/forskrift/2014-09-05-1157/KAPITTEL_7-4-2)
+
+Som kravene viser er det bare X-bånd (3cm) radar i 9 GHz frekvensbåndet som er påbudt å ha for de fartøy som skal ha radar. Selv de som har krav om to radaranlegg ( >10 000 Brt. ) er det bare X-bånd det er krav om å ha. Det har blant annet sammenheng med nødtranspondere til sjøs som operer i 9 GHz frekvensbåndet. SART (Search And Rescue Transponder), også kalt radartransponder, vil ved aktivering kunne gi et eget signal til X-bånd radar som indikerer avstanden til den som er i nød. I dette tilfellet avstanden fra din antenne til radartranspondener.
+
+!!! bilde ""
+    ![](media/k39_image72.png){:width="400px" .pdf-45}![](media/k39_image73.jpeg){:width="400px" .pdf-45}
+    Figur 48 SART (Radar-transponder)
+
+
+-------------
+
+
+## IMO-krav til ytelse
+
+IMO stiller krav til radarens ytelse. Dette er minimumskrav som alle sjøfartsorganisasjoner underlagt IMO skal etterfølge. I korte trekke går disse krav på hvor godt radaren skal kunne detektere på ulike avstander. Da uten «clutter-funksjoner» i bruk.
+
+- Kystlinjen skal kunne oppdages på 20 nm avstand, hvor land er 60 meter og høyere.
+- Kystlinjen skal kunne oppdages på 7 nm avstand, hvor land er 6 meter og høyere.
+- Et skip i størrelsesorden 5 000 Brt. skal uansett kunne oppdages på 7 nm avstand.
+- Et fartøy mindre enn 10 meter langt, skal kunne oppdages på minimum 3 nm avstand.
+- Navigasjonsbøyer eller andre objekter på havoverflaten, med en viss deteksjonssannsynlighet, skal kunne oppdages på 2 nm avstand. I tillegg skal de kunne oppdages tydelig fra en minimumsavstand på 50 meter til 1 nm uavhengig av å måtte operere andre kontroller enn avstand/range.
+
+> De radarer som selges på markedet etterfølger naturligvis de krav som stilles til de fartøy som forespørselen kommer fra. Normalt vil en moderne radar kunne ligge godt over de minimumskrav som stilles av organisasjonen.
+
+Forskjellige ekko
+=================
+
+Høyt land eller et høyt mål gir et kraftig og skarpt ekko på skjermen. En lav kystlinje gir svakere og et mer ubestemt ekko. Hvis det er slikt at det er lavt land med høyere land eller åser bakenfor, gir høylandet skarpere ekko. Hvis vi skal måle avstanden til en slik kyst, får vi sikrere avstand hvis vi måler til høylandet.
+
+!!! bilde ""
+    ![](media/k39_image74.png)
+    Figur 49 Rekkevidde, høylandet inn først
+
+Hvis det er høyland foran lavere land, vil det danne seg skygger. Dette kan ta seg særlig rart ut på radarbildet hvis det er enkle fjelltopper ut mot kysten. Det vil da på skjermen ta seg ut som om det er vann/sjø bak en slik fjelltopp.
+
+Vi forstår av dette at vi får forskjellig bilde på skjermen avhengig av hvor kupert kysten er. Etter det som her er nevnt og som vi tidligere har gjennomgått angående pulslengden og virkningen av strålebredden, **blir radarbildet slett ikke noen tro kopi av omgivelsene.**
+
+-----------------
+
+## Falske ekko
+
+Det hender av og til at en kan få ekko på skjermen i retninger hvor det ikke er noe mål i det hele tatt. Slike ekko kaller en for falske ekko. Hvis en eller annen påmontering på masten er slik at det står omtrent i høyde med antennen, kan pulsen bli reflektert i denne og lage et falskt ekko. Hvis antennen står i skipets diametralplan, vil dette falske ekkoet opptre rett forut. Da vi vet avstand er bestemt av tiden ekkoet har vært «på reise» vil det opptre i samme avstand foran baugen som avstanden til det virkelige ekkoet som det er reflektert fra. Dette kalles et **indirekte ekko.**
+
+!!! bilde ""
+    ![](media/k39_image75.png)
+    Figur 50 Indirekte ekko
+
+Den sikreste måten å slå fast om det er et virkelig eller et falskt ekko en har forut, er å forandre kursen litt. Hvis det er et virkelig mål, vil ekkoet på skjermen gå ut av forut linjen, men hvis det er et falskt ekko, vil det holde seg rett forut.
+
+!!! bilde ""
+    ![](media/k39_image76.png)
+    Figur 51 Indirekte ekko fra mål på babord baug.
+
+Slike falske ekko kan en også få fra skorsteinen. Det falske ekkoet blir alltid avsatt på radarbildet i den retningen som skorsteinen står i forhold til antennen.
+
+**Felles for alle falske ekko er at de er svakere enn det virkelige ekko, og det skal i alminnelighet store mål til for at de skal opptre. **
+
+
+### Multiple ekko
+
+Det er noen spesielle falske ekko som en kan få av skip som går parallelle kurser. De oppstår på den måten at radarpulsen blir reflektert flere ganger frem og tilbake mellom de to skip.
+
+!!! bilde ""
+    ![](media/k39_image77.png){:width="400px" .pdf-45}![](media/k39_image78.png){:width="400px" .pdf-45}
+    Figur 52 Multiple ekko på passerende fartøy
+
+**Disse falske ekko er lette å kjenne på skjermen da det er samme avstand mellom dem. Avstanden til det virkelige målet er det nærmeste. **
+
+
+### «Sidelobens» virkning
+
+Det er i alminnelighet vanskelig å få sentrert radarstrålen helt i en smal stråle fra begynnelsen av. Det vil nemlig stråle litt energi ut til sidene – de såkalte «sidelobene». Disse sideslobene når under vanlige forhold ikke så langt ut.
+
+!!! bilde ""
+    ![](media/k39_image79.png)
+    Figur 53 Sidelober
+
+Hvis vi nå har et mål like i nærheten, hender det at det kan komme innenfor rekkevidden av sideloben. Ekkoet på skjermen blir da dratt ut i så stor vinkel som sidelobene danner. Det vil på skjermen liksom bli sirkulære striper på to sider av målet. Hvis vi setter mindre styrke på GAIN, vil virkningen av sidelobene reduseres, og stripene vil da sannsynligvis forsvinne.
+
+!!! bilde ""
+    ![](media/k39_image80.png){:width="400px" .pdf-45} ![](media/k39_image81.png){:width="400px" .pdf-45}
+    Figur 54 Med og uten sidelobens virkning
+
+ 
+## Interferens
+
+!!! bilde ""
+    ![](media/k39_image82.png)
+    Figur 55 Inteferensprikker («spindelvev») på skjerm
+
+Når det er andre skip i nærheten som har radar, hender det av og til at en kan få ekkomerker på skjermen som har ingen tilknytning til omgivelsene. Disse merkene kommer av at egen radar tar imot pulser som blir sendt ut fra andre radarsendere på andre skip i nærheten. Vi sier da at vi får interferensekko på skjermen. En skulle tro at dette i mange tilfelle ville gjøre radarmottakingen umulig, men det er slett ikke tilfelle. Vi regner med at det er om lag 5 % sjanser for at en skal få interferensekko fra andre radarsendere. Slike forstyrrende ekko på skjermen ser ut som små lyse spetter. De vil komme og forsvinne igjen, og de vil som nevnt ikke forstyrre bildet noe særlig. Det kan fjernes med aktivering av **«interference rejection»**-funksjon.
+
+## Mørke eller blinde sektorer
+
+Radar kan jo like lite som vårt øye se gjennom master osv. Bak slike gjenstander må det i retning fra antennen danne seg ubevoktede sektorer, som vi kaller mørke eller blinde sektorer.
+
+Det beste hadde vært om en kunne plassere antennen så høyt at den stod over både master og hindringer, da ville den jo ha fritt «utsyn» over hele horisonten.
+
+!!! bilde ""
+    ![](media/k39_image83.png)
+    Figur 56 Blindsektor, her fra skorstein og på låring
+
+Dette er ikke mulig på vanlig sjøgående fartøyer. Antennen ville da bli stående så høyt at bølgelederen ville bli uforholdsmessig lang, og dette ville igjen svekke apparatets yteevne. Dessuten ville da antennen også bli utsatt for store rystelser, og den ville også bli vanskelig å vedlikeholde. Av de grunnene som her er nevnt, er det ikke tilrådelig å plassere antennen på en så høy mast. Det forekommer allikevel at enkelte skip som går i innelukket farvann og som f.eks. er i havnetjeneste, har antenne på mastetoppen.
+
+Regelen er at antennen er montert på en radarmast på brua. Disse radarmastene er vanligvis laget av aluminium, og de er i alminnelighet betydelig lavere enn mastene, og følgelig blir det blinde sektorer bak disse. Skorstein vil også skape blindsektor for radarbildet slik at mål som befinner seg i denne eller andre blindsektorer ikke vil vises på radarskjermen. Vakthavende må derfor alltid være klar over hvor disse sektorer er, og hvor store de er i antall grader. De er vanligvis lette å se på radarskjermen, da det vil danne seg mørke sektorer der hvor de opptrer
+
+### Ulik plassering av radarantenne
+
+Noen skip, for eks. containerskip har radar plassert i formast slik at man unngår blindsone som følge av dekkslast. Noen har også flere antenner med ulik plassering og oppnår med det et radarbilde uten blindsektorer. Er det blindsektorer som kan ha betydning for navigeringen, kan det være hensiktsmessig å endre kursen litt et lite øyeblikk for å se om det kan befinne seg aktuelle mål i den aktuelle blindsektoren. Vi skal være oppmerksomme på at en ofte vil få falske ekko i samme retning som en har de blinde sektorer.
+
+Som vi forstår gir radar langt fra et riktig og fullstendig bilde av omgivelsene, men når radaroperatøren alltid har full oversikt over dens svakheter eller dens eksakte yteevne, er den et ypperlig navigasjonshjelpemiddel. De fleste radarhavarier (kollisjoner mellom skip utstyrt med radar) skyldes likevel at operatørene ikke har benyttet eller hatt tilstrekkelig kjennskap til radarens yteevne.
+
+!!! bilde ""
+    ![](media/k39_image84.jpeg)
+    Figur 57 Av praktiske hensyn, ulik plassering av radarantenner. 
+    Foto: Van Oord's flexible fallpipe vessel Nordnes
+
+
+------------------
+
+Værets innflytelse på radarnavigeringen (meteorologiske forhold)
+================================================================
+
+Hvis radaren skal kunne gi et godt bilde av det som er innenfor dens rekkevidde, forutsetter dette at den luft som radarpulsen går gjennom, er ren, og dessuten må det være normale atmosfæriske forhold i den underste del av luftlaget.
+
+Luftas renhet i denne forbindelse er hovedsakelig avhengig av dens innhold av fuktighet.
+
+> **Jo mer fuktighet luften inneholder, desto dårligere er radarsiktbarheten.** 
+
+På samme måte som fuktigheten i lufta reduserer den optiske rekkevidde, slik vil den altså også redusere radar rekkevidden, men selvfølgelig i betydelig mindre grad.
+
+!!! bilde ""
+    ![](media/k39_image85.png)
+    Figur 58 «Regnskyll» inn på styrbord side
+
+Nedbør vil påvirke radarytelsen på flere måter. Radarpulsen taper noe av sin energi i form av varme og ved regnbyger vil pulsen bli reflektert og bli til ekko på radarskjermen. Disse virkningene blir større jo mindre bølgelengden er, altså betydelig mer merkbart på en 3 cm radar. En «værradar» som har til hensikt å observere regn vil da operere med kort bølgelengde. Ved å variere styrken på ANTI-CLUTTER kan støyen delvis oppløse seg slik at en kan oppdage eventuelle mål i nedbørsområdet.
+
+ 
+
+### Tåke
+
+Det er heldigvis slik at når det er tåke, er vanndråpene i lufta så små at de har liten innflytelse på radarmottakingen. Vi må imidlertid alltid regne med at radaren har en mindre rekkevidde i tåke enn når det er klarvær. Erfaring har også vist at denne reduksjon i yteevnen er større når det er kuldegrader enn når det er varmegrader i lufta.
+
+### Kraftig vind og høy sjø
+
+Ved slingring kan pulser tidvis gå over mål som befinner seg i en bølgedal sammen med at radarantennen beveger seg fra side til side. Sjøene rundt fartøyer vil skape mye støy på radarbildet og «anti-clutter sea»-funksjonen aktiveres.
+
+Noens erfaring viser at mål på lo side av uværet gir svakere ekko enn tilvarende mål på le side, altså best når pulsen får medvind ved utsending.
+
+### Spesielle meteorologiske forhold for rekkevidde
+
+!!! bilde ""
+    ![](media/k39_image86.png)
+    Figur 59 Normal-refraction
+
+Normal rekkevidde ved normal utbredelseshastighet er som nevnt ca. 10 % mer enn den optiske rekkevidden. Det er en såkalt normal refraksjon (avbøyning).
+
+Ved noen spesielle forhold som gjør at radarstrålen får en kraftig avbøyning ned mot havoverflaten, vil en kunne oppleve betraktelig økt rekkevidde. Dette kan oppstå når kald luft kommer inn over varm sjø og temperatur og fuktighet avtar med høyden. Dette kalles for «super-refraction».
+
+!!! bilde ""
+    ![](media/k39_image87.png)
+    Figur 60 Super-refraction
+
+Ved andre spesielle tilfeller hvor man har varm, fuktig luft i høyere luftlag, kan det dannes en bølgeleder eller såkalt **«duct»** mellom de spesielle meteorologiske lagene og havflaten slik at rekkevidden øker betraktelig. Ved slike tilfeller må man være bevisst at en kan få returnert ekko som er utsendt ved forrige sveip. Ekkoet vil da presenteres i riktig peiling, men mye nærmere enn det i virkeligheten er. Disse ekko kalles for «second trace»-ekko.
+
+I andre tilfeller kan rekkevidden reduseres betraktelig fra den normale refraksjonen. Det kan oppstå når utbredelseshastigheten avtar med høyden grunnet blant annet varm fuktig luft over kald sjø. Forhold hvor det ofte oppstår tåke som ligger lavt. Radarstrålen kan bøyes oppover og følgelig vil rekkevidden betraktelig reduseres. Ved tåkedis i kjølig vær kan man også oppleve lignende tilfeller. Slike tilfeller kalles for «sub-refraction».
+
+!!! bilde ""
+    ![](media/k39_image88.png)
+    Figur 61 Sub-refraction
+
+------------------------------
+
+Navigering med radar
+====================
+
+## Kystnavigering
+
+For å få full nytte av radarapparatet må en bruke det flittig i klarvær. En vil da bli mer fortrolig med yteevnen det har, og den måten radaren fremstiller de forskjellige mål på. Radaren vil som nevnt ikke alltid samsvare med landet en seiler langs grunnet høydeforskjeller. Radaren vil i mange tilfeller gi et overraskende bilde når vi sammenligner med kartet.
+
+Flytende sjømerker gir vanligvis dårlig ekko, og hvis de er av tre, blir ekkoet enda svakere og kan til og med forsvinne helt. Sjøgangen gjør også sitt til at vi ikke alltid kan stole på å få ekko fra disse merker, da de kan gjemme seg i en bølgedal. På flere steder er de flytende sjømerkene utstyrt med reflektorer eller «racon» som gjør de lettere nå oppdage.
+
+### WP: Tvers av Raunaskjærene styrbord, videre stevne nærmeste fastlandodde sør for Fleslandskjæret.
+
+!!! bilde ""
+    ![](media/k39_image89.png){:width="400px" .pdf-45} ![](media/k39_image90.png){:width="400px" .pdf-45}
+    Figur 62 Wp. Stevne «fleslandsodden»
+
+ 
+
+### En god navigatør kan seile i radar 
+
+Radar/ARPA blir hyppig brukt for å få oversikt over trafikkbildet vårt, slik at vi handler riktig i henhold til forskrift om sammenstøt til sjøs. Det å seile/orientere seg i farvannet er kanskje minst like viktig.
+
+En god navigatør kan orientere seg i farvannet ved bruk av kart, radar og det visuelle bildet. Ved nedsatt sikt er utvilsom radar som er det sikreste og beste hjelpemiddelet vi har for å seile sikkert. ECDIS/kartmaskin er avhengig av GPS-ens nøyaktighet, slik radar ikke er. Det er derfor en viktig sikkerhetsfaktor at navigatøren hele tiden øver seg på å seile i radar, slik at når situasjonen krever det er beredt til å benytte seg av fordelen radar gir.
+
+
+ 
+
+### Stedsbestemmelse (posisjon)
+
+!!! bilde ""
+    ![](media/k39_image91.png)
+    Figur 63 Sammenligne kart og radarbildet ved bruk av EBL og VRM til flere mål. Krysspeiling eller peiling og avstand vil da kunne si noe om GPS nøyaktighet forutsatt radarpeilingen er korrigert og riktig, samt VRM gir riktig avstand (kalibrert riktig) til mål.
+
+!!! bilde ""
+    ![](media/k39_image92.png)
+
+
+
+!!! viktig "NB!"
+    Unngå i så stor grad det lar seg gjøre å posisjonere seg ved bruk av peiling og avstand til følgende mål;
+    
+    - Flytende sjømerker 
+    - Lav kystlinje 
+    - Kystlinje med store tidevannsforskjeller 
+    - Landfast is i arktiske strøk 
+
+ 
+--------------------
+
+## Parallellindeks
+
+!!! bilde ""
+    ![](media/k39_image93.png){.pdf-50}
+    Figur 64 Parallellindeks på Racon-bøye
+
+En god forklaring på nytten av parallellindeks vil være – *kommer jeg frem i den kursen jeg ønsker å komme frem i?* Ved å sette en parallell linje til vår egen kurs på et fast mål med den avstand vi har planlagt å holde til målet kan vi raskt bedømme hvorvidt vi kommer frem i ønsket kurs. Parallellindeksen gir ved eksempelet over en indikasjon på dette ved å drifte av målet den er satt på. Drifter den av mot deg drifter du i fra målet og drifter den fra deg drifter du imot målet, fordi P.I hele tiden vil holde fast avstand fra eget skip.
+
+## Radaransvaret
+
+Det er innlysende at radar er et meget viktig navigasjonshjelpemiddel i usiktbart vær. Radar skulle bidratt til færre grunnstøtinger og kollisjoner. Riktig bruk av radar øker i betydelig grad sikkerheten til sjøs, det både for eget og andres skip. Forskrifter om vakthold og forebygging av sammenstøt til sjøs gir klare krav og forpliktelser til bruken av radar. Det er derfor av den ytterste nødvendighet at navigatørene har inngående kjennskap til bruken av radar om bord, herunder oversikt over radarens yteevne og begrensning.
+
+!!! viktig "Ulykker"
+    Mange ulykker til sjøs, kollisjoner og grunnstøtinger, er forårsaket av at navigatøren ikke bruker radaren godt nok til å nyttiggjøre seg de opplysninger radaren gir.

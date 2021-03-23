@@ -34,9 +34,10 @@ tell application "QuarkXPress 2018"
 			if (count of characters of paragraph i) = 1 then
 				try
 					set leading of paragraph i to leadint
-					try
-						set style sheet of (paragraph i) to first_style
-					end try
+				 
+							set style sheet of (paragraph i) to first_style
+					 
+					
 				end try
 			end if
 		end repeat
