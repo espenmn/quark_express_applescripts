@@ -14,6 +14,7 @@ tell application "QuarkXPress 2018"
 						try
 							set color of paragraph 1 to "Magenta"
 							set contents of last word of paragraph 1 to mynumber
+							-- set contents of  word 2 of paragraph 1 to mynumber
 							set mynumber to mynumber + 1
 						end try
 						
