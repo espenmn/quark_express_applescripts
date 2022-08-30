@@ -20,7 +20,7 @@ tell application "QuarkXPress 2018"
 		set pagerange to i & "-" & j
 		tell document 1
 			
-			export page range (pagerange as text) as "PDF" in ((outputfolderpath & (quarkfilename) & "_" & pagerange & ".pdf") as text) PDF output style "17x24"
+			-- export page range (pagerange as text) as "PDF" in ((outputfolderpath & (quarkfilename) & "_" & pagerange & ".pdf") as text) PDF output style "17x24"
 		end tell
 	end repeat
 end tell

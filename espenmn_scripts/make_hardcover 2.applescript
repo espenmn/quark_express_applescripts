@@ -6,7 +6,7 @@
 *)
 
 
-tell application "QuarkXPress 2017"
+tell application "QuarkXPress 2018-kopi"
 	activate
 	
 	set question to display dialog "Width of document" default answer (170) buttons {"Avbryt", "OK"} default button "OK"
@@ -22,7 +22,7 @@ tell application "QuarkXPress 2017"
 	set totalbredde to bredde + bredde + 14 + 4 + 30 + rygg
 	set rygg to rygg as real
 	
-	tell default document 
+	tell default document 1
 		set column count to 1
 		set automatic text box to false
 		set bottom margin to "17mm"
