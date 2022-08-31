@@ -6,7 +6,7 @@
 *)
 
 
-tell application "QuarkXPress 2018-kopi"
+tell application "QuarkXPress 2018"
 	activate
 	
 	set question to display dialog "Width of document" default answer (170) buttons {"Avbryt", "OK"} default button "OK"
