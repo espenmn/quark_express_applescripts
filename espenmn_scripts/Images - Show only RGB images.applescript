@@ -24,7 +24,7 @@ tell application "QuarkXPress 2018"
 						set color_space to color_space as string
 						
 						if color_space = "RGB" then
-							set check to 1		
+							set check to 1
 						end if
 						
 					end try
