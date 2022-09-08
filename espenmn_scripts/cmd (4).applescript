@@ -80,7 +80,7 @@ tell application "QuarkXPress 2018"
 				set {leftLabel} to create label "Left" bottom 200 max width accViewWidth control size regular size
 				set {topLabel} to create label "Top" bottom 170 max width accViewWidth control size regular size
 				set {widthLabel} to create label "Width" bottom 140 max width accViewWidth control size regular size
-				set {heightLabel} to create label "Left" bottom 110 max width accViewWidth control size regular size
+				set {heightLabel} to create label "Height" bottom 110 max width accViewWidth control size regular size
 				
 				
 				set {colorPopup, popupLabel} to create labeled popup stylelist left inset 0 bottom 60 popup width 100 max width 200 label text "Box Color" popup left 70 initial choice farge
