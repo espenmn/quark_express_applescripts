@@ -1,0 +1,4 @@
+findType,findWhat,changeTo,caseSensitive,wholeWord,enabled,comments
+text,--,"&ndash;",FALSE,FALSE,TRUE,Find all dash-dash and replace with an em dash.
+text, - ,"&ndash;",FALSE,FALSE,TRUE,Find all space-dash-space and replace with an en dash.
+grep,/(\d)-(\d)/g,$1&ndash;$2,FALSE,FALSE,TRUE,Change ([0-9])-([0-9]) to [0-9]–[0-9]

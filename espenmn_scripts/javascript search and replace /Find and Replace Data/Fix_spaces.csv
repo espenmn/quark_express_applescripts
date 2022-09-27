@@ -1,0 +1,9 @@
+findType,findWhat,changeTo,caseSensitive,wholeWord,enabled,comments
+text,  , ,FALSE,FALSE,TRUE,Find all double spaces and replace with a single space.
+text, :,:,FALSE,FALSE,TRUE,Find all space-colon and replace with a colon.
+text, ?,?,FALSE,FALSE,TRUE,Find all space-question mark and replace with a question mark.
+text, !,!,FALSE,FALSE,TRUE,Find all space-exclamatory sign and replace with an exclamatory sign.
+text, =,=,FALSE,FALSE,TRUE,Find all space-equals to and replace with an equals to sign.
+text, .,.,FALSE,FALSE,TRUE,Find all space-full stop and replace with a full stop.
+text," ,",",",FALSE,FALSE,TRUE,Find all space-komma and replace with a full komma.
+grep,/(\s{3})/g,"&hTab;",NA,NA,FALSE,Replace 3 or more spaces with tabulator
