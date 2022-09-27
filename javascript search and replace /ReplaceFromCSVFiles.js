@@ -22,8 +22,9 @@ Description: Find and Replace from all files
 
 	if (qxValidations.isLayoutOpen() && copySampleFiles()) {
  			
+ 			//Define folder you put the scripts in	// Alternaitve put the whole paths in myList 
  			var basURL = "/Users/rolf/Documents/Quark/QuarkXPress 2018/Find and Replace Data/";
-			//var myList = [ "qx_Find_Change_List.csv", "qx_Find_Change_List.csv" ]
+			//var myList could maybe find all docs in this folder instead?
 			var myList = [ "Fix_spaces.csv", "Fix_hyphens.csv"];
 			
  			let i = 0;
