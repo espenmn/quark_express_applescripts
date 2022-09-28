@@ -1,7 +1,9 @@
 findType,findWhat,changeTo,caseSensitive,wholeWord,enabled,comments
+grep,/(\s{3})/g,&hTab;,NA,NA,TRUE,Replace 3 or more spaces with tabulator
 text,  , ,FALSE,FALSE,TRUE,Find all double spaces and replace with a single space.
 text, :,:,FALSE,FALSE,TRUE,Find all space-colon and replace with a colon.
 text, ?,?,FALSE,FALSE,TRUE,Find all space-question mark and replace with a question mark.
 text, !,!,FALSE,FALSE,TRUE,Find all space-exclamatory sign and replace with an exclamatory sign.
 text, =,=,FALSE,FALSE,TRUE,Find all space-equals to and replace with an equals to sign.
 text, .,.,FALSE,FALSE,TRUE,Find all space-full stop and replace with a full stop.
+grep,/\x20([!?\x2C.:;])/g,$1,NA,NA,TRUE,replace space-comma.
