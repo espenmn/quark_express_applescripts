@@ -174,7 +174,7 @@ Description: Find and Replace from all files
 		let scope =  "Selection";
 		console.log(scope);
 		
-		var retValue = app.dialogs.confirm( myfile );
+		var retValue = app.dialogs.confirm( "Run on selection:" + myfile );
 		
 		if  (retValue) {
 
