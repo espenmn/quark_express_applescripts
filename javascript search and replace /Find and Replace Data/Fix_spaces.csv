@@ -6,4 +6,6 @@ text, ?,?,FALSE,FALSE,TRUE,Find all space-question mark and replace with a quest
 text, !,!,FALSE,FALSE,TRUE,Find all space-exclamatory sign and replace with an exclamatory sign.
 text, =,=,FALSE,FALSE,TRUE,Find all space-equals to and replace with an equals to sign.
 text, .,.,FALSE,FALSE,TRUE,Find all space-full stop and replace with a full stop.
-grep,/\x20([!?\x2C.:;])/g,$1,NA,NA,TRUE,replace space-comma.
+text, ;,;,FALSE,FALSE,TRUE,Find all space-semicolon and replace with a semicolon.
+grep,/\x20([\x2C])/g,$1,NA,NA,TRUE,replace space-comma.
+grep,/\x20([!?\x2C.:;])/g,$1,NA,NA,FALSE,replace all above + space-comma. Disabled
