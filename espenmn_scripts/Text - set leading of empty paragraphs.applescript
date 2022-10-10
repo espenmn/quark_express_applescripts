@@ -15,17 +15,17 @@ tell application "QuarkXPress 2018-kopi"
 	
 	
 	tell selection
-		repeat with i from 1 to 100001
+		repeat with i from 1 to count of paragraphs
 			-- display dialog (count of characters of paragraph i)
 			if (count of characters of paragraph i) = 1 then
-				--try
-				--set leading of paragraph i to leadint
-				set size of content of paragraph i to "6pt"
-				
-				--set style sheet of (paragraph i) to ":Blank"
-				
-				
-				-- end try
+				try
+					set leading of paragraph i to leadint
+					set size of content of paragraph i to "6pt"
+					
+					--set style sheet of (paragraph i) to ":Blank"
+					
+					
+				end try
 			end if
 		end repeat
 		display dialog "DONE"

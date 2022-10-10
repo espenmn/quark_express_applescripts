@@ -23,7 +23,7 @@ tell application "QuarkXPress 2018"
 						close this_image
 						set color_space to color_space as string
 						
-						if color_space = "RGB" then
+						if color_space = "CMYK" then
 							set check to 1
 						end if
 						
