@@ -18,7 +18,7 @@ tell application "QuarkXPress 2018"
 					set image_path to file path of image 1 as string
 					
 					if image_path is not "no disk file" then set suppress printing to 1
-					if  missing of image 1  then  set suppress printing to 0
+					if missing of image 1 then set suppress printing to 0
 					
 				end if
 			end tell

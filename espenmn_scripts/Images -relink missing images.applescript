@@ -20,7 +20,22 @@ tell application "QuarkXPress 2018"
 				try
 					set image i of document 1 to ny_path as alias
 				end try
+				
+				
+				
+				
 			end if
+			set missing_status to missing of image i of document 1
+			if missing_status is true then
+				try
+				
+				set ny_path to "Volumes:Documents:#fra skrivebordet:" & missing_link_name as string
+				
+				
+				set image i of document 1 to ny_path as alias
+				end try
+			end if
+			
 		end repeat
 		
 		
